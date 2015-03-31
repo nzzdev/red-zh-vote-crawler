@@ -1,37 +1,36 @@
-var fetcher = require('./src/fetcher.js');
-var converter = require('./src/converter.js');
+var crawler = require('./src/crawler.js');
 
 module.exports = function(grunt) {
-  grunt.registerTask('fetch:test:simple', 'fetches a simple html table', function() {
-    var done = this.async();
-    var url = 'http://www.wahlen.zh.ch/wahlen/kr2011_medieninfo/viewer.php?menu=listen_kanton';
+  function getElectionId() {
+    var id = grunt.option('election-id');
+    if(!id) {
+      throw new Error ('No election id provided');
+    }
+    return id;
+  }
 
-    fetcher.html(url).then(function($) {
-      var rows = converter.cheerioTable($, $('table').last());
+  grunt.registerTask('fetch:lists:canton', 'fetches list results', function() {
+    var done = this.async();
+
+    crawler.lists.canton(getElectionId()).then(function(rows) {
       console.log(rows);
       done();
     });
   });
 
-
-  grunt.registerTask('fetch:test:colspan', 'fetches a html table with colspan', function() {
+  grunt.registerTask('fetch:lists:constituencies', 'fetches list results in constituencies', function() {
     var done = this.async();
-    var url = 'http://www.wahlen.zh.ch/wahlen/kr2011_medieninfo/viewer.php?menu=listen_wk&wk=a';
 
-    fetcher.html(url).then(function($) {
-      var rows = converter.cheerioTable($, $('table').last());
+    crawler.lists.constituencies(getElectionId()).then(function(rows) {
       console.log(rows);
       done();
     });
   });
 
-
-  grunt.registerTask('fetch:test:classes', 'fetches a html table with classified rows', function() {
+  grunt.registerTask('fetch:exe:canton', 'fetches executive candidate results', function() {
     var done = this.async();
-    var url = 'http://www.wahlen.zh.ch/wahlen/rr2015_preview/viewer.php?table=kandkanton';
 
-    fetcher.html(url).then(function($) {
-      var rows = converter.cheerioTable($, $('table').eq(-2)).slice(0, -1);
+    crawler.exe.candidates.canton(getElectionId()).then(function(rows) {
       console.log(rows);
       done();
     });

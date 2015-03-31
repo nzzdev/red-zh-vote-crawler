@@ -38,12 +38,12 @@ module.exports.html = function(url) {
   return get({url: url, encoding: null}).then(function(data) {
     return cheerio.load(converter.convert(data).toString());
   }, function(failure) {
-    console.log(
+    console.error(
       '=>',
       (failure.response || {}).statusCode,
       failure.error,
       failure.data
     );
-    throw 'failed to fetch ' + url;
+    throw new Error('failed to fetch ' + url);
   });
 }

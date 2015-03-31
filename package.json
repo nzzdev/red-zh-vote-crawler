@@ -2,7 +2,7 @@
   "name": "zh-vote-crawler",
   "version": "1.0.0",
   "description": "The goal is to write a crawler to fetch and extract the html tables of [www.wahlen.zh.ch](http://www.wahlen.zh.ch/).",
-  "main": "index.js",
+  "main": "src/crawler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

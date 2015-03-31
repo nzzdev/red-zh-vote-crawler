@@ -24,6 +24,30 @@ npm install
 
 ### How to use
 
+The crawler can be used via grunt or as a regular npm package.
+
+#### Grunt
+
+All tasks require `--election-id` parameter.
+
 ```
 grunt --help
 ```
+
+##### Examples
+
+```
+grunt fetch:lists:canton --election-id=kr2011_medieninfo
+grunt fetch:lists:constituencies --election-id=kr2011_medieninfo
+grunt fetch:exe:canton --election-id=rr2015_preview
+```
+
+#### JavaScript
+
+```
+var crawler = require('zh-vote-crawler');
+
+crawler.lists.canton('kr2011_medieninfo');
+```
+
+The crawler always returns a `q` promise object. The crawler has a default waiting time of 500ms between requests and only runs one request at a time.
