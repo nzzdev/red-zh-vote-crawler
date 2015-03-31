@@ -55,8 +55,14 @@ The crawler always returns a `q` promise object. The crawler has a default waiti
 ```
 var crawler = require('zh-vote-crawler');
 
-crawler.lists.canton('kr2011_medieninfo');
-crawler.lists.constituencies('kr2011_medieninfo');
-crawler.exe.canton('rr2015_preview');
+crawler.lists.canton('kr2011_medieninfo').then(function(rows) {
+  console.log(rows);
+});
+crawler.lists.constituencies('kr2011_medieninfo').then(function(rows) {
+  console.log(rows);
+});
+crawler.exe.canton('rr2015_preview').then(function(rows) {
+  console.log(rows);
+});
 ```
 
