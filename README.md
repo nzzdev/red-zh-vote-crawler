@@ -10,23 +10,11 @@ The two example pages of the two upcoming elections are:
 
 Links to the hot pages and data from it can not be published until the poles close at April 12th 12:00 PM.
 
-## Installation
-
-This project is mainly based on following node.js packages: `request`, `cheerio`, `grunt` and `q`. For the complete list see `package.json`
-
-### How to install
-
-Install Node.js on your machine.
-
-```
-npm install
-```
-
-### How to use
+## How to use
 
 The crawler can be used via grunt or as a regular npm package.
 
-#### Grunt
+### Grunt
 
 All tasks require `--election-id` parameter.
 
@@ -34,7 +22,7 @@ All tasks require `--election-id` parameter.
 grunt --help
 ```
 
-##### Examples
+#### Examples
 
 ```
 grunt fetch:lists:canton --election-id=kr2011_medieninfo
@@ -42,7 +30,16 @@ grunt fetch:lists:constituencies --election-id=kr2011_medieninfo
 grunt fetch:exe:canton --election-id=rr2015_preview
 ```
 
-#### JavaScript
+
+#### Never used npm and grunt?
+
+[Install Node.js](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager#osx) on your machine. Then install grunt globally and the dependencies locally.
+
+```
+npm install -g grunt-cli && npm install
+```
+
+### JavaScript
 
 ```
 npm install zh-vote-crawler --save
@@ -50,7 +47,7 @@ npm install zh-vote-crawler --save
 
 The crawler always returns a `q` promise object. The crawler has a default waiting time of 500ms between requests and only runs one request at a time.
 
-##### Examples
+#### Examples
 
 ```
 var crawler = require('zh-vote-crawler');
