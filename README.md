@@ -45,9 +45,18 @@ grunt fetch:exe:canton --election-id=rr2015_preview
 #### JavaScript
 
 ```
-var crawler = require('zh-vote-crawler');
-
-crawler.lists.canton('kr2011_medieninfo');
+npm install zh-vote-crawler --save
 ```
 
 The crawler always returns a `q` promise object. The crawler has a default waiting time of 500ms between requests and only runs one request at a time.
+
+##### Examples
+
+```
+var crawler = require('zh-vote-crawler');
+
+crawler.lists.canton('kr2011_medieninfo');
+crawler.lists.constituencies('kr2011_medieninfo');
+crawler.exe.canton('rr2015_preview');
+```
+
