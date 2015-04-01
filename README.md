@@ -1,5 +1,7 @@
 # ZH Vote Crawler
 
+*This is an unofficial crawler to retrieve data from the Statistical Office of the Kanton Zürich. No guarantees provided.*
+
 The goal is to write a crawler to fetch and extract the html tables of [www.wahlen.zh.ch](http://www.wahlen.zh.ch/).
 
 This crawler is intitially written for the cantonal election on April 12th 2015. But it may be useful thereafter aswell.

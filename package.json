@@ -10,8 +10,16 @@
     "type": "git",
     "url": "https://github.com/nzzdev/red-zh-vote-crawler.git"
   },
-  "author": "",
-  "license": "MIT",
+  "author": {
+    "name": "Thomas Preusse",
+    "url": "https://twitter.com/tpreusse"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/nzzdev/red-zh-vote-crawler/blob/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/nzzdev/red-zh-vote-crawler/issues"
   },
