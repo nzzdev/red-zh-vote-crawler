@@ -14,7 +14,11 @@ Links to the hot pages and data from it can not be published until the poles clo
 
 ## How to use
 
-The crawler can be used via grunt or as a regular npm package.
+The crawler can be used via grunt or directly in javascript.
+
+```
+npm install zh-vote-crawler --save
+```
 
 ### Grunt
 
@@ -43,11 +47,7 @@ npm install -g grunt-cli && npm install
 
 ### JavaScript
 
-```
-npm install zh-vote-crawler --save
-```
-
-The crawler always returns a `q` promise object. The crawler has a default waiting time of 500ms between requests and only runs one request at a time.
+The crawler always returns a `q` promise object. The crawler has a waiting time of 500ms between requests and always runs requests sequently.
 
 #### Examples
 

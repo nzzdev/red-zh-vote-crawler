@@ -13,7 +13,7 @@ function get(options) {
   var deferred = Q.defer();
   requestQueue = requestQueue.then(function() {
     var requestDeferred = Q.defer();
-    console.log('GET', options.url);
+    console.info('GET', options.url);
     request.get(options, function(error, response, data) {
       if(!error && response.statusCode === 200) {
         deferred.resolve(data);
