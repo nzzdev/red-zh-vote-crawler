@@ -1,14 +1,18 @@
 var Q = require('q');
+var d3 = require('d3');
 var fetcher = require('./fetcher.js');
 var converter = require('./converter.js');
+var transformer = require('./transformer.js');
 
 var baseUrl = 'http://www.wahlen.zh.ch/wahlen/';
+var utcTime = d3.time.format.iso;
 
-function htmlFetch(url, transformer) {
+function htmlFetch(url, convert) {
   var deferred = Q.defer();
 
-  fetcher.html(baseUrl + url).then(function($) {
-    deferred.resolve(transformer($));
+  url = baseUrl + url;
+  fetcher.html(url).then(function($) {
+    deferred.resolve(convert($, url));
   }, function(failure) {
     deferred.reject(failure);
   }).done();
@@ -36,16 +40,38 @@ lists.canton.help = 'fetches list results';
 lists.constituencies.help = 'fetches list results in constituencies';
 
 var exe = module.exports.exe = {
-  candidates: {
-    canton: function(electionId) {
-      return htmlFetch(electionId + '/viewer.php?table=kandkanton', function($) {
-        var rows = converter.cheerioTable($, $('table').eq(-2)).slice(0, -1);
+  canton: function(electionId) {
+    return htmlFetch(electionId + '/viewer.php?table=kandkanton', function($, url) {
+      var rows = converter.cheerioTable($, $('table').eq(-2)).slice(0, -1);
 
-        return rows;
+      var resultSet = {
+        source: converter.rrMeta($, electionId, url),
+        results: transformer.rr.kandkanton(rows)
+      };
+
+      return resultSet;
+    });
+  },
+  areas: function(electionId) {
+    return htmlFetch(electionId + '/viewer.php?table=kandgemeinden', function($, url) {
+      var rows = converter.cheerioTableArrays($, $('table').eq(-2)).slice(0, -1);
+
+      rows = converter.rows.rmRepeatHeaders(rows);
+      rows[0][0].text = 'area';
+      rows = rows.filter(function(row) {
+        return !row[0].text.match(/^\s*Bezirk/);
       });
-    }
+      rows = converter.rows.toObjects(rows);
+
+      var resultSet = {
+        source: converter.rrMeta($, electionId, url),
+        results: transformer.rr.kandgemeinden(rows)
+      };
+
+      return resultSet;
+    });
   }
 };
-exe.candidates.canton.help = 'fetches executive candidate results';
+exe.canton.help = 'fetches executive candidate results';
 
 

@@ -1,22 +1,29 @@
 var _ = require('lodash');
 var fs = require('fs');
+var stripBom = require('strip-bom');
 
 var fetcher = require('./fetcher.js');
 var transformer = require('./transformer.js');
 
+var topojsonFilePath = __dirname + '/../data/meta/geo_source.json';
+
 module.exports.fetch = function(argument) {
   return fetcher.get({
     url: 'http://www.statistik.zh.ch/content/dam/justiz_innern/statistik/W_A/wahlen/Wahljahr%202015/KRW2015/GemeindenWahlkreise_KR2015.json'
+  }).then(function(data) {
+    fs.writeFileSync(topojsonFilePath, stripBom(data));
   });
 }
 
-module.exports.cleanAndIndex = function(topojson) {
+module.exports.index = function() {
   var index = {};
 
   var ignoreSourceId = [  // Fromat: wk + '-' + bfsk
     '15-2302', // Oberwinterthur is always city
     '14-226' // Schlatt is always country
   ];
+
+  var topojson = JSON.parse(fs.readFileSync(topojsonFilePath, {encoding: 'utf8'}));
 
   topojson.objects.overlay_merge2.geometries.filter(function(d) {
     return d.properties.BFS !== 0 && d.properties.Wahlkreise !== null;;

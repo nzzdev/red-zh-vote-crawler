@@ -12,6 +12,7 @@ module.exports = function(grunt) {
     return id;
   }
 
+  var resultsDir = './data/results/';
   function registerTasks(object, outerKeys) {
     _.each(object, function(value, key) {
       var keys = (outerKeys || []).concat([key]);
@@ -19,9 +20,13 @@ module.exports = function(grunt) {
         grunt.registerTask('fetch:' + keys.join(':'), value.help, function() {
           var done = this.async();
 
-          value(getElectionId()).then(function(rows) {
-            console.log(JSON.stringify(rows, null, 2));
-            done();
+          var electionId = getElectionId();
+          value(electionId).then(function(result) {
+            fs.writeFile(
+              resultsDir + electionId + '_' + keys.join('_') + '.json',
+              JSON.stringify(result, null, 2), 
+              done
+            );
           });
         });
       }
@@ -32,22 +37,15 @@ module.exports = function(grunt) {
   }
   registerTasks(crawler);
 
-  var metaDir = './data/meta/';
-  var topojsonFilePath = metaDir + 'geo_source.json';
   grunt.registerTask('meta:fetch:geography', 'fetches meta data zh election geography', function() {
-    var done = this.async();
-    geo.fetch().then(function(data) {
-      fs.writeFile(topojsonFilePath, data, done)
-    });
+    geo.fetch().then(this.async()).done();
   });
 
-  grunt.registerTask('meta:prepare:geography', 'prepare meta data zh election geography', function() {
+  grunt.registerTask('meta:status:geography', 'prepare meta data zh election geography', function() {
     var done = this.async();
 
-    var index = geo.cleanAndIndex(require(topojsonFilePath));
-    console.log('indexed ' + Object.keys(index).length + ' areas');
-
-    fs.writeFile(metaDir + 'geo_index.json', JSON.stringify(index, null, 2), done);
+    var index = geo.index();
+    console.log('The are ' + Object.keys(index).length + ' areas indexed.');
   });
 
 };
