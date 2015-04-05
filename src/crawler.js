@@ -16,7 +16,7 @@ function htmlFetch(url, transformer) {
   return deferred.promise;
 }
 
-module.exports.lists = {
+var lists = module.exports.lists = {
   canton: function(electionId) {
     return htmlFetch(electionId + '/viewer.php?menu=listen_kanton', function($) {
       var rows = converter.cheerioTable($, $('table').last());
@@ -32,8 +32,10 @@ module.exports.lists = {
     });
   }
 };
+lists.canton.help = 'fetches list results';
+lists.constituencies.help = 'fetches list results in constituencies';
 
-module.exports.exe = {
+var exe = module.exports.exe = {
   candidates: {
     canton: function(electionId) {
       return htmlFetch(electionId + '/viewer.php?table=kandkanton', function($) {
@@ -44,3 +46,6 @@ module.exports.exe = {
     }
   }
 };
+exe.candidates.canton.help = 'fetches executive candidate results';
+
+

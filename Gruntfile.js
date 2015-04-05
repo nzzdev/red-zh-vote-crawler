@@ -1,3 +1,4 @@
+var _ = require('lodash');
 var crawler = require('./src/crawler.js');
 
 module.exports = function(grunt) {
@@ -9,30 +10,24 @@ module.exports = function(grunt) {
     return id;
   }
 
-  grunt.registerTask('fetch:lists:canton', 'fetches list results', function() {
-    var done = this.async();
+  function registerTasks(object, outerKeys) {
+    _.each(object, function(value, key) {
+      var keys = (outerKeys || []).concat([key]);
+      if(_.isFunction(value)) {
+        grunt.registerTask('fetch:' + keys.join(':'), value.help, function() {
+          var done = this.async();
 
-    crawler.lists.canton(getElectionId()).then(function(rows) {
-      console.log(rows);
-      done();
+          value(getElectionId()).then(function(rows) {
+            console.log(rows);
+            done();
+          });
+        });
+      }
+      else {
+        registerTasks(value, keys);
+      }
     });
-  });
+  }
+  registerTasks(crawler);
 
-  grunt.registerTask('fetch:lists:constituencies', 'fetches list results in constituencies', function() {
-    var done = this.async();
-
-    crawler.lists.constituencies(getElectionId()).then(function(rows) {
-      console.log(rows);
-      done();
-    });
-  });
-
-  grunt.registerTask('fetch:exe:canton', 'fetches executive candidate results', function() {
-    var done = this.async();
-
-    crawler.exe.candidates.canton(getElectionId()).then(function(rows) {
-      console.log(rows);
-      done();
-    });
-  });
 };
