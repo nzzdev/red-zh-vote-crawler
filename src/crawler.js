@@ -11,7 +11,7 @@ function htmlFetch(url, transformer) {
     deferred.resolve(transformer($));
   }, function(failure) {
     deferred.reject(failure);
-  });
+  }).done();
 
   return deferred.promise;
 }
@@ -44,4 +44,3 @@ module.exports.exe = {
     }
   }
 };
-

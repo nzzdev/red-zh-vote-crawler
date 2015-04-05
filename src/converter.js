@@ -1,34 +1,60 @@
-var d3 = require('d3');
 var _ = require('lodash');
 
-module.exports.cheerioTable = function($, $table) {
+function toArrays($, $table) {
   var rows = [];
   $table.find('tr').each(function(i) {
-    var isHeader = i === 0;
-    var columns = [], classes = [];
+    var columns = [];
 
     $(this).find('td').each(function() {
-      var text = $(this).text();
+      var column = {
+        text: $(this).text(),
+        className: $(this).attr('class')
+      };
+
       var colspan = $(this).attr('colspan') || 1;
       for(var i = 1; i <= colspan; i++) {
-        columns.push(text + (i > 1 ? ' ' + i : ''));
+        var clone = _.clone(column);
+        clone.text += (i > 1 ? ' ' + i : '');
+        columns.push(clone);
       }
-      classes = classes.concat(($(this).attr('class') || '').split(' '));
     });
-
-    if(isHeader) {
-      columns.push('classes');
-    }
-    else {
-      columns.push(_.uniq(classes).filter(Boolean).join(' '));
-    }
-
     rows.push(columns);
   });
 
-  var objects = d3.csv.parse(d3.csv.formatRows(rows));
-  objects.forEach(function(object) {
-    object.classes = object.classes.split(' ');
+  return rows;
+}
+
+function toObjects(rows) {
+  var header = rows.shift();
+  var objects = [];
+  rows.forEach(function(row) {
+    var object = {};
+    row.forEach(function(column, i) {
+      object[header[i].text] = column;
+    });
+    objects.push(object);
   });
   return objects;
+}
+
+function raw($, $table) {
+  return toObjects(toArrays($, $table));
+}
+
+module.exports.cheerioTableRaw = function($, $table) {
+  return raw($, $table);
+};
+module.exports.cheerioTable = function($, $table) {
+  var rows = raw($, $table);
+
+  rows.forEach(function(row, i) {
+    var classes = [];
+    _.each(row, function(value, key) {
+      classes.push(value.className.split(' '));
+      row[key] = value.text;
+    });
+    row.classes = _.uniq(_.flatten(classes)).filter(Boolean);
+  });
+
+  return rows;
 };
