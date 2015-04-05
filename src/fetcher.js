@@ -34,6 +34,7 @@ function get(options) {
   return deferred.promise;
 }
 
+module.exports.get = get;
 module.exports.html = function(url) {
   return get({url: url, encoding: null}).then(function(data) {
     return cheerio.load(converter.convert(data).toString());

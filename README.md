@@ -20,6 +20,8 @@ The crawler can be used via grunt or directly in javascript.
 npm install zh-vote-crawler --save
 ```
 
+The crawler assumes to be running with `TZ=Europe/Zurich` for correct meta data time readings.
+
 ### Grunt
 
 All tasks require `--election-id` parameter.

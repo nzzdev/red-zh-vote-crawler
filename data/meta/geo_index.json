@@ -1,0 +1,1100 @@
+{
+  "feuerthalen": {
+    "name": "Feuerthalen",
+    "wk": 16,
+    "bfs": 27,
+    "bfsk": 27
+  },
+  "flurlingen": {
+    "name": "Flurlingen",
+    "wk": 16,
+    "bfs": 29,
+    "bfsk": 29
+  },
+  "laufen-uhwiesen": {
+    "name": "Laufen-Uhwiesen",
+    "wk": 16,
+    "bfs": 34,
+    "bfsk": 34
+  },
+  "dachsen": {
+    "name": "Dachsen",
+    "wk": 16,
+    "bfs": 25,
+    "bfsk": 25
+  },
+  "benken-zh": {
+    "name": "Benken (ZH)",
+    "wk": 16,
+    "bfs": 22,
+    "bfsk": 22
+  },
+  "unterstammheim": {
+    "name": "Unterstammheim",
+    "wk": 16,
+    "bfs": 42,
+    "bfsk": 42
+  },
+  "truellikon": {
+    "name": "Trüllikon",
+    "wk": 16,
+    "bfs": 40,
+    "bfsk": 40
+  },
+  "rheinau": {
+    "name": "Rheinau",
+    "wk": 16,
+    "bfs": 38,
+    "bfsk": 38
+  },
+  "oberstammheim": {
+    "name": "Oberstammheim",
+    "wk": 16,
+    "bfs": 36,
+    "bfsk": 36
+  },
+  "waltalingen": {
+    "name": "Waltalingen",
+    "wk": 16,
+    "bfs": 44,
+    "bfsk": 44
+  },
+  "marthalen": {
+    "name": "Marthalen",
+    "wk": 16,
+    "bfs": 35,
+    "bfsk": 35
+  },
+  "truttikon": {
+    "name": "Truttikon",
+    "wk": 16,
+    "bfs": 41,
+    "bfsk": 41
+  },
+  "ossingen": {
+    "name": "Ossingen",
+    "wk": 16,
+    "bfs": 37,
+    "bfsk": 37
+  },
+  "rafz": {
+    "name": "Rafz",
+    "wk": 17,
+    "bfs": 67,
+    "bfsk": 67
+  },
+  "wil-zh": {
+    "name": "Wil (ZH)",
+    "wk": 17,
+    "bfs": 71,
+    "bfsk": 71
+  },
+  "kleinandelfingen": {
+    "name": "Kleinandelfingen",
+    "wk": 16,
+    "bfs": 33,
+    "bfsk": 33
+  },
+  "wasterkingen": {
+    "name": "Wasterkingen",
+    "wk": 17,
+    "bfs": 70,
+    "bfsk": 70
+  },
+  "andelfingen": {
+    "name": "Andelfingen",
+    "wk": 16,
+    "bfs": 30,
+    "bfsk": 30
+  },
+  "adlikon": {
+    "name": "Adlikon",
+    "wk": 16,
+    "bfs": 21,
+    "bfsk": 21
+  },
+  "huentwangen": {
+    "name": "Hüntwangen",
+    "wk": 17,
+    "bfs": 61,
+    "bfsk": 61
+  },
+  "flaach": {
+    "name": "Flaach",
+    "wk": 16,
+    "bfs": 28,
+    "bfsk": 28
+  },
+  "thalheim-an-der-thur": {
+    "name": "Thalheim an der Thur",
+    "wk": 16,
+    "bfs": 39,
+    "bfsk": 39
+  },
+  "altikon": {
+    "name": "Altikon",
+    "wk": 15,
+    "bfs": 211,
+    "bfsk": 211
+  },
+  "eglisau": {
+    "name": "Eglisau",
+    "wk": 17,
+    "bfs": 55,
+    "bfsk": 55
+  },
+  "volken": {
+    "name": "Volken",
+    "wk": 16,
+    "bfs": 43,
+    "bfsk": 43
+  },
+  "humlikon": {
+    "name": "Humlikon",
+    "wk": 16,
+    "bfs": 32,
+    "bfsk": 32
+  },
+  "dorf": {
+    "name": "Dorf",
+    "wk": 16,
+    "bfs": 26,
+    "bfsk": 26
+  },
+  "daegerlen": {
+    "name": "Dägerlen",
+    "wk": 15,
+    "bfs": 214,
+    "bfsk": 214
+  },
+  "glattfelden": {
+    "name": "Glattfelden",
+    "wk": 17,
+    "bfs": 58,
+    "bfsk": 58
+  },
+  "dinhard": {
+    "name": "Dinhard",
+    "wk": 15,
+    "bfs": 216,
+    "bfsk": 216
+  },
+  "ellikon-an-der-thur": {
+    "name": "Ellikon an der Thur",
+    "wk": 15,
+    "bfs": 218,
+    "bfsk": 218
+  },
+  "berg-am-irchel": {
+    "name": "Berg am Irchel",
+    "wk": 16,
+    "bfs": 23,
+    "bfsk": 23
+  },
+  "henggart": {
+    "name": "Henggart",
+    "wk": 16,
+    "bfs": 31,
+    "bfsk": 31
+  },
+  "weiach": {
+    "name": "Weiach",
+    "wk": 18,
+    "bfs": 102,
+    "bfsk": 102
+  },
+  "rickenbach-zh": {
+    "name": "Rickenbach (ZH)",
+    "wk": 15,
+    "bfs": 225,
+    "bfsk": 225
+  },
+  "buch-am-irchel": {
+    "name": "Buch am Irchel",
+    "wk": 16,
+    "bfs": 24,
+    "bfsk": 24
+  },
+  "hettlingen": {
+    "name": "Hettlingen",
+    "wk": 15,
+    "bfs": 221,
+    "bfsk": 221
+  },
+  "freienstein-teufen": {
+    "name": "Freienstein-Teufen",
+    "wk": 17,
+    "bfs": 57,
+    "bfsk": 57
+  },
+  "buelach": {
+    "name": "Bülach",
+    "wk": 17,
+    "bfs": 53,
+    "bfsk": 53
+  },
+  "stadel": {
+    "name": "Stadel",
+    "wk": 18,
+    "bfs": 100,
+    "bfsk": 100
+  },
+  "wiesendangen": {
+    "name": "Wiesendangen",
+    "wk": 15,
+    "bfs": 298,
+    "bfsk": 298
+  },
+  "rorbas": {
+    "name": "Rorbas",
+    "wk": 17,
+    "bfs": 68,
+    "bfsk": 68
+  },
+  "seuzach": {
+    "name": "Seuzach",
+    "wk": 15,
+    "bfs": 227,
+    "bfsk": 227
+  },
+  "bachs": {
+    "name": "Bachs",
+    "wk": 18,
+    "bfs": 81,
+    "bfsk": 81
+  },
+  "hochfelden": {
+    "name": "Hochfelden",
+    "wk": 17,
+    "bfs": 59,
+    "bfsk": 59
+  },
+  "daettlikon": {
+    "name": "Dättlikon",
+    "wk": 15,
+    "bfs": 215,
+    "bfsk": 215
+  },
+  "hagenbuch": {
+    "name": "Hagenbuch",
+    "wk": 15,
+    "bfs": 220,
+    "bfsk": 220
+  },
+  "oberweningen": {
+    "name": "Oberweningen",
+    "wk": 18,
+    "bfs": 93,
+    "bfsk": 93
+  },
+  "embrach": {
+    "name": "Embrach",
+    "wk": 17,
+    "bfs": 56,
+    "bfsk": 56
+  },
+  "niederweningen": {
+    "name": "Niederweningen",
+    "wk": 18,
+    "bfs": 91,
+    "bfsk": 91
+  },
+  "neerach": {
+    "name": "Neerach",
+    "wk": 18,
+    "bfs": 88,
+    "bfsk": 88
+  },
+  "schleinikon": {
+    "name": "Schleinikon",
+    "wk": 18,
+    "bfs": 98,
+    "bfsk": 98
+  },
+  "schoefflisdorf": {
+    "name": "Schöfflisdorf",
+    "wk": 18,
+    "bfs": 99,
+    "bfsk": 99
+  },
+  "pfungen": {
+    "name": "Pfungen",
+    "wk": 15,
+    "bfs": 224,
+    "bfsk": 224
+  },
+  "elsau": {
+    "name": "Elsau",
+    "wk": 15,
+    "bfs": 219,
+    "bfsk": 219
+  },
+  "hoeri": {
+    "name": "Höri",
+    "wk": 17,
+    "bfs": 60,
+    "bfsk": 60
+  },
+  "steinmaur": {
+    "name": "Steinmaur",
+    "wk": 18,
+    "bfs": 101,
+    "bfsk": 101
+  },
+  "elgg": {
+    "name": "Elgg",
+    "wk": 15,
+    "bfs": 217,
+    "bfsk": 217
+  },
+  "bachenbuelach": {
+    "name": "Bachenbülach",
+    "wk": 17,
+    "bfs": 51,
+    "bfsk": 51
+  },
+  "winkel": {
+    "name": "Winkel",
+    "wk": 17,
+    "bfs": 72,
+    "bfsk": 72
+  },
+  "oberembrach": {
+    "name": "Oberembrach",
+    "wk": 17,
+    "bfs": 65,
+    "bfsk": 65
+  },
+  "hofstetten-bei-elgg": {
+    "name": "Hofstetten bei Elgg",
+    "wk": 15,
+    "bfs": 222,
+    "bfsk": 222
+  },
+  "niederglatt": {
+    "name": "Niederglatt",
+    "wk": 18,
+    "bfs": 89,
+    "bfsk": 89
+  },
+  "oberglatt": {
+    "name": "Oberglatt",
+    "wk": 18,
+    "bfs": 92,
+    "bfsk": 92
+  },
+  "lufingen": {
+    "name": "Lufingen",
+    "wk": 17,
+    "bfs": 63,
+    "bfsk": 63
+  },
+  "niederhasli": {
+    "name": "Niederhasli",
+    "wk": 18,
+    "bfs": 90,
+    "bfsk": 90
+  },
+  "schlatt": {
+    "name": "Schlatt",
+    "wk": 15,
+    "bfs": 226,
+    "bfsk": 226
+  },
+  "bruetten": {
+    "name": "Brütten",
+    "wk": 15,
+    "bfs": 213,
+    "bfsk": 213
+  },
+  "dielsdorf": {
+    "name": "Dielsdorf",
+    "wk": 18,
+    "bfs": 86,
+    "bfsk": 86
+  },
+  "regensberg": {
+    "name": "Regensberg",
+    "wk": 18,
+    "bfs": 95,
+    "bfsk": 95
+  },
+  "kloten": {
+    "name": "Kloten",
+    "wk": 17,
+    "bfs": 62,
+    "bfsk": 62
+  },
+  "boppelsen": {
+    "name": "Boppelsen",
+    "wk": 18,
+    "bfs": 82,
+    "bfsk": 82
+  },
+  "otelfingen": {
+    "name": "Otelfingen",
+    "wk": 18,
+    "bfs": 94,
+    "bfsk": 94
+  },
+  "nuerensdorf": {
+    "name": "Nürensdorf",
+    "wk": 17,
+    "bfs": 64,
+    "bfsk": 64
+  },
+  "kyburg": {
+    "name": "Kyburg",
+    "wk": 13,
+    "bfs": 175,
+    "bfsk": 175
+  },
+  "zell-zh": {
+    "name": "Zell (ZH)",
+    "wk": 15,
+    "bfs": 231,
+    "bfsk": 231
+  },
+  "ruemlang": {
+    "name": "Rümlang",
+    "wk": 18,
+    "bfs": 97,
+    "bfsk": 97
+  },
+  "lindau": {
+    "name": "Lindau",
+    "wk": 13,
+    "bfs": 176,
+    "bfsk": 176
+  },
+  "buchs-zh": {
+    "name": "Buchs (ZH)",
+    "wk": 18,
+    "bfs": 83,
+    "bfsk": 83
+  },
+  "turbenthal": {
+    "name": "Turbenthal",
+    "wk": 15,
+    "bfs": 228,
+    "bfsk": 228
+  },
+  "illnau-effretikon": {
+    "name": "Illnau-Effretikon",
+    "wk": 13,
+    "bfs": 174,
+    "bfsk": 174
+  },
+  "regensdorf": {
+    "name": "Regensdorf",
+    "wk": 18,
+    "bfs": 96,
+    "bfsk": 96
+  },
+  "bassersdorf": {
+    "name": "Bassersdorf",
+    "wk": 17,
+    "bfs": 52,
+    "bfsk": 52
+  },
+  "weisslingen": {
+    "name": "Weisslingen",
+    "wk": 13,
+    "bfs": 180,
+    "bfsk": 180
+  },
+  "daenikon": {
+    "name": "Dänikon",
+    "wk": 18,
+    "bfs": 85,
+    "bfsk": 85
+  },
+  "huettikon": {
+    "name": "Hüttikon",
+    "wk": 18,
+    "bfs": 87,
+    "bfsk": 87
+  },
+  "daellikon": {
+    "name": "Dällikon",
+    "wk": 18,
+    "bfs": 84,
+    "bfsk": 84
+  },
+  "wildberg": {
+    "name": "Wildberg",
+    "wk": 13,
+    "bfs": 182,
+    "bfsk": 182
+  },
+  "opfikon": {
+    "name": "Opfikon",
+    "wk": 17,
+    "bfs": 66,
+    "bfsk": 66
+  },
+  "dietlikon": {
+    "name": "Dietlikon",
+    "wk": 17,
+    "bfs": 54,
+    "bfsk": 54
+  },
+  "wallisellen": {
+    "name": "Wallisellen",
+    "wk": 17,
+    "bfs": 69,
+    "bfsk": 69
+  },
+  "oetwil-an-der-limmat": {
+    "name": "Oetwil an der Limmat",
+    "wk": 7,
+    "bfs": 246,
+    "bfsk": 246
+  },
+  "wila": {
+    "name": "Wila",
+    "wk": 13,
+    "bfs": 181,
+    "bfsk": 181
+  },
+  "zuerich-kreis-11": {
+    "name": "Zürich, Kreis 11",
+    "wk": 6,
+    "bfs": 261,
+    "bfsk": 2618
+  },
+  "weiningen-zh": {
+    "name": "Weiningen (ZH)",
+    "wk": 7,
+    "bfs": 251,
+    "bfsk": 251
+  },
+  "wangen-bruettisellen": {
+    "name": "Wangen-Brüttisellen",
+    "wk": 12,
+    "bfs": 200,
+    "bfsk": 200
+  },
+  "geroldswil": {
+    "name": "Geroldswil",
+    "wk": 7,
+    "bfs": 244,
+    "bfsk": 244
+  },
+  "russikon": {
+    "name": "Russikon",
+    "wk": 13,
+    "bfs": 178,
+    "bfsk": 178
+  },
+  "dietikon": {
+    "name": "Dietikon",
+    "wk": 7,
+    "bfs": 243,
+    "bfsk": 243
+  },
+  "zuerich-kreis-10": {
+    "name": "Zürich, Kreis 10",
+    "wk": 4,
+    "bfs": 261,
+    "bfsk": 2617
+  },
+  "unterengstringen": {
+    "name": "Unterengstringen",
+    "wk": 7,
+    "bfs": 249,
+    "bfsk": 249
+  },
+  "zuerich-kreis-12": {
+    "name": "Zürich, Kreis 12",
+    "wk": 6,
+    "bfs": 261,
+    "bfsk": 2619
+  },
+  "oberengstringen": {
+    "name": "Oberengstringen",
+    "wk": 7,
+    "bfs": 245,
+    "bfsk": 245
+  },
+  "volketswil": {
+    "name": "Volketswil",
+    "wk": 12,
+    "bfs": 199,
+    "bfsk": 199
+  },
+  "zuerich-kreis-6": {
+    "name": "Zürich, Kreis 6",
+    "wk": 4,
+    "bfs": 261,
+    "bfsk": 2614
+  },
+  "duebendorf": {
+    "name": "Dübendorf",
+    "wk": 12,
+    "bfs": 191,
+    "bfsk": 191
+  },
+  "schlieren": {
+    "name": "Schlieren",
+    "wk": 7,
+    "bfs": 247,
+    "bfsk": 247
+  },
+  "fehraltorf": {
+    "name": "Fehraltorf",
+    "wk": 13,
+    "bfs": 172,
+    "bfsk": 172
+  },
+  "pfaeffikon": {
+    "name": "Pfäffikon",
+    "wk": 13,
+    "bfs": 177,
+    "bfsk": 177
+  },
+  "zuerich-kreis-9": {
+    "name": "Zürich, Kreis 9",
+    "wk": 2,
+    "bfs": 261,
+    "bfsk": 2616
+  },
+  "bauma": {
+    "name": "Bauma",
+    "wk": 13,
+    "bfs": 171,
+    "bfsk": 171
+  },
+  "urdorf": {
+    "name": "Urdorf",
+    "wk": 7,
+    "bfs": 250,
+    "bfsk": 250
+  },
+  "schwerzenbach": {
+    "name": "Schwerzenbach",
+    "wk": 12,
+    "bfs": 197,
+    "bfsk": 197
+  },
+  "zuerich-kreis-7-und-8": {
+    "name": "Zürich, Kreis 7 und 8",
+    "wk": 5,
+    "bfs": 261,
+    "bfsk": 2615
+  },
+  "hittnau": {
+    "name": "Hittnau",
+    "wk": 13,
+    "bfs": 173,
+    "bfsk": 173
+  },
+  "zuerich-kreis-4-und-5": {
+    "name": "Zürich, Kreis 4 und 5",
+    "wk": 3,
+    "bfs": 261,
+    "bfsk": 2613
+  },
+  "uster": {
+    "name": "Uster",
+    "wk": 12,
+    "bfs": 198,
+    "bfsk": 198
+  },
+  "faellanden": {
+    "name": "Fällanden",
+    "wk": 12,
+    "bfs": 193,
+    "bfsk": 193
+  },
+  "zuerich-kreis-1-und-2": {
+    "name": "Zürich, Kreis 1 und 2",
+    "wk": 1,
+    "bfs": 261,
+    "bfsk": 2611
+  },
+  "greifensee": {
+    "name": "Greifensee",
+    "wk": 12,
+    "bfs": 194,
+    "bfsk": 194
+  },
+  "zuerich-kreis-3": {
+    "name": "Zürich, Kreis 3",
+    "wk": 2,
+    "bfs": 261,
+    "bfsk": 2612
+  },
+  "fischenthal": {
+    "name": "Fischenthal",
+    "wk": 11,
+    "bfs": 114,
+    "bfsk": 114
+  },
+  "uitikon": {
+    "name": "Uitikon",
+    "wk": 7,
+    "bfs": 248,
+    "bfsk": 248
+  },
+  "baeretswil": {
+    "name": "Bäretswil",
+    "wk": 11,
+    "bfs": 111,
+    "bfsk": 111
+  },
+  "birmensdorf-zh": {
+    "name": "Birmensdorf (ZH)",
+    "wk": 7,
+    "bfs": 242,
+    "bfsk": 242
+  },
+  "maur": {
+    "name": "Maur",
+    "wk": 12,
+    "bfs": 195,
+    "bfsk": 195
+  },
+  "seegraeben": {
+    "name": "Seegräben",
+    "wk": 11,
+    "bfs": 119,
+    "bfsk": 119
+  },
+  "zollikon": {
+    "name": "Zollikon",
+    "wk": 10,
+    "bfs": 161,
+    "bfsk": 161
+  },
+  "stallikon": {
+    "name": "Stallikon",
+    "wk": 8,
+    "bfs": 13,
+    "bfsk": 13
+  },
+  "zumikon": {
+    "name": "Zumikon",
+    "wk": 10,
+    "bfs": 160,
+    "bfsk": 160
+  },
+  "wettswil-am-albis": {
+    "name": "Wettswil am Albis",
+    "wk": 8,
+    "bfs": 14,
+    "bfsk": 14
+  },
+  "aesch-bei-birmensdorf": {
+    "name": "Aesch bei Birmensdorf",
+    "wk": 7,
+    "bfs": 241,
+    "bfsk": 241
+  },
+  "wetzikon-zh": {
+    "name": "Wetzikon (ZH)",
+    "wk": 11,
+    "bfs": 121,
+    "bfsk": 121
+  },
+  "kuesnacht-zh": {
+    "name": "Küsnacht (ZH)",
+    "wk": 10,
+    "bfs": 154,
+    "bfsk": 154
+  },
+  "kilchberg-zh": {
+    "name": "Kilchberg (ZH)",
+    "wk": 9,
+    "bfs": 135,
+    "bfsk": 135
+  },
+  "bonstetten": {
+    "name": "Bonstetten",
+    "wk": 8,
+    "bfs": 3,
+    "bfsk": 3
+  },
+  "adliswil": {
+    "name": "Adliswil",
+    "wk": 9,
+    "bfs": 131,
+    "bfsk": 131
+  },
+  "hinwil": {
+    "name": "Hinwil",
+    "wk": 11,
+    "bfs": 117,
+    "bfsk": 117
+  },
+  "gossau-zh": {
+    "name": "Gossau (ZH)",
+    "wk": 11,
+    "bfs": 115,
+    "bfsk": 115
+  },
+  "moenchaltorf": {
+    "name": "Mönchaltorf",
+    "wk": 12,
+    "bfs": 196,
+    "bfsk": 196
+  },
+  "egg": {
+    "name": "Egg",
+    "wk": 12,
+    "bfs": 192,
+    "bfsk": 192
+  },
+  "wald-zh": {
+    "name": "Wald (ZH)",
+    "wk": 11,
+    "bfs": 120,
+    "bfsk": 120
+  },
+  "rueschlikon": {
+    "name": "Rüschlikon",
+    "wk": 9,
+    "bfs": 139,
+    "bfsk": 139
+  },
+  "erlenbach-zh": {
+    "name": "Erlenbach (ZH)",
+    "wk": 10,
+    "bfs": 151,
+    "bfsk": 151
+  },
+  "hedingen": {
+    "name": "Hedingen",
+    "wk": 8,
+    "bfs": 5,
+    "bfsk": 5
+  },
+  "herrliberg": {
+    "name": "Herrliberg",
+    "wk": 10,
+    "bfs": 152,
+    "bfsk": 152
+  },
+  "thalwil": {
+    "name": "Thalwil",
+    "wk": 9,
+    "bfs": 141,
+    "bfsk": 141
+  },
+  "meilen": {
+    "name": "Meilen",
+    "wk": 10,
+    "bfs": 156,
+    "bfsk": 156
+  },
+  "langnau-am-albis": {
+    "name": "Langnau am Albis",
+    "wk": 9,
+    "bfs": 136,
+    "bfsk": 136
+  },
+  "affoltern-am-albis": {
+    "name": "Affoltern am Albis",
+    "wk": 8,
+    "bfs": 2,
+    "bfsk": 2
+  },
+  "bubikon": {
+    "name": "Bubikon",
+    "wk": 11,
+    "bfs": 112,
+    "bfsk": 112
+  },
+  "grueningen": {
+    "name": "Grüningen",
+    "wk": 11,
+    "bfs": 116,
+    "bfsk": 116
+  },
+  "duernten": {
+    "name": "Dürnten",
+    "wk": 11,
+    "bfs": 113,
+    "bfsk": 113
+  },
+  "ottenbach": {
+    "name": "Ottenbach",
+    "wk": 8,
+    "bfs": 11,
+    "bfsk": 11
+  },
+  "aeugst-am-albis": {
+    "name": "Aeugst am Albis",
+    "wk": 8,
+    "bfs": 1,
+    "bfsk": 1
+  },
+  "oetwil-am-see": {
+    "name": "Oetwil am See",
+    "wk": 10,
+    "bfs": 157,
+    "bfsk": 157
+  },
+  "uetikon-am-see": {
+    "name": "Uetikon am See",
+    "wk": 10,
+    "bfs": 159,
+    "bfsk": 159
+  },
+  "oberrieden": {
+    "name": "Oberrieden",
+    "wk": 9,
+    "bfs": 137,
+    "bfsk": 137
+  },
+  "obfelden": {
+    "name": "Obfelden",
+    "wk": 8,
+    "bfs": 10,
+    "bfsk": 10
+  },
+  "rueti-zh": {
+    "name": "Rüti (ZH)",
+    "wk": 11,
+    "bfs": 118,
+    "bfsk": 118
+  },
+  "maennedorf": {
+    "name": "Männedorf",
+    "wk": 10,
+    "bfs": 155,
+    "bfsk": 155
+  },
+  "hausen-am-albis": {
+    "name": "Hausen am Albis",
+    "wk": 8,
+    "bfs": 4,
+    "bfsk": 4
+  },
+  "horgen": {
+    "name": "Horgen",
+    "wk": 9,
+    "bfs": 133,
+    "bfsk": 133
+  },
+  "hombrechtikon": {
+    "name": "Hombrechtikon",
+    "wk": 10,
+    "bfs": 153,
+    "bfsk": 153
+  },
+  "mettmenstetten": {
+    "name": "Mettmenstetten",
+    "wk": 8,
+    "bfs": 9,
+    "bfsk": 9
+  },
+  "staefa": {
+    "name": "Stäfa",
+    "wk": 10,
+    "bfs": 158,
+    "bfsk": 158
+  },
+  "rifferswil": {
+    "name": "Rifferswil",
+    "wk": 8,
+    "bfs": 12,
+    "bfsk": 12
+  },
+  "waedenswil": {
+    "name": "Wädenswil",
+    "wk": 9,
+    "bfs": 142,
+    "bfsk": 142
+  },
+  "maschwanden": {
+    "name": "Maschwanden",
+    "wk": 8,
+    "bfs": 8,
+    "bfsk": 8
+  },
+  "knonau": {
+    "name": "Knonau",
+    "wk": 8,
+    "bfs": 7,
+    "bfsk": 7
+  },
+  "hirzel": {
+    "name": "Hirzel",
+    "wk": 9,
+    "bfs": 132,
+    "bfsk": 132
+  },
+  "kappel-am-albis": {
+    "name": "Kappel am Albis",
+    "wk": 8,
+    "bfs": 6,
+    "bfsk": 6
+  },
+  "richterswil": {
+    "name": "Richterswil",
+    "wk": 9,
+    "bfs": 138,
+    "bfsk": 138
+  },
+  "schoenenberg-zh": {
+    "name": "Schönenberg (ZH)",
+    "wk": 9,
+    "bfs": 140,
+    "bfsk": 140
+  },
+  "huetten": {
+    "name": "Hütten",
+    "wk": 9,
+    "bfs": 134,
+    "bfsk": 134
+  },
+  "winterthur-oberwinterthur": {
+    "name": "Winterthur Oberwinterthur",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2302
+  },
+  "winterthur-wuelflingen": {
+    "name": "Winterthur Wülflingen",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2306
+  },
+  "winterthur-veltheim": {
+    "name": "Winterthur Veltheim",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2305
+  },
+  "winterthur-altstadt": {
+    "name": "Winterthur Altstadt",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2301
+  },
+  "winterthur-toess": {
+    "name": "Winterthur Töss",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2304
+  },
+  "winterthur-mattenbach": {
+    "name": "Winterthur Mattenbach",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2307
+  },
+  "winterthur-seen": {
+    "name": "Winterthur Seen",
+    "wk": 14,
+    "bfs": 230,
+    "bfsk": 2303
+  },
+  "neftenbach": {
+    "name": "Neftenbach",
+    "wk": 15,
+    "bfs": 223,
+    "bfsk": 223
+  }
+}
