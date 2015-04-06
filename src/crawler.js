@@ -20,24 +20,49 @@ function htmlFetch(url, convert) {
   return deferred.promise;
 }
 
-var lists = module.exports.lists = {
+var leg = module.exports.leg = {};
+
+var lists = leg.lists = {
   canton: function(electionId) {
-    return htmlFetch(electionId + '/viewer.php?menu=listen_kanton', function($) {
+    return htmlFetch(electionId + '/viewer.php?menu=listen_kanton', function($, url) {
       var rows = converter.cheerioTable($, $('table').last());
 
-      return rows;
+      var resultSet = {
+        source: converter.krMeta($, electionId, url),
+        results: transformer.kr.listen_kanton(rows)
+      };
+
+      return resultSet;
     });
   },
   constituencies: function(electionId) {
-    return htmlFetch(electionId + '/viewer.php?menu=listen_wk&wk=a', function($) {
+    return htmlFetch(electionId + '/viewer.php?menu=listen_wk&wk=a', function($, url) {
       var rows = converter.cheerioTable($, $('table').last());
 
-      return rows;
+      var resultSet = {
+        source: converter.krMeta($, electionId, url),
+        results: transformer.kr.listen_wk_a(rows)
+      };
+
+      return resultSet;
     });
   }
 };
 lists.canton.help = 'fetches list results';
 lists.constituencies.help = 'fetches list results in constituencies';
+
+leg.candidates = function(electionId) {
+  return htmlFetch(electionId + '/viewer.php?menu=kand_kanton', function($, url) {
+    var rows = converter.cheerioTable($, $('table').last());
+
+    var resultSet = {
+      source: converter.krMeta($, electionId, url),
+      results: transformer.kr.kand_kanton(rows)
+    };
+
+    return resultSet;
+  });
+}
 
 var exe = module.exports.exe = {
   canton: function(electionId) {
@@ -73,5 +98,6 @@ var exe = module.exports.exe = {
   }
 };
 exe.canton.help = 'fetches executive candidate results';
+exe.areas.help = 'fetches executive candidate results in all areas';
 
 

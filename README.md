@@ -33,11 +33,14 @@ grunt --help
 #### Examples
 
 ```
-grunt fetch:lists:canton --election-id=kr2011_medieninfo
-grunt fetch:lists:constituencies --election-id=kr2011_medieninfo
+grunt fetch:leg:lists:canton --election-id=kr2011_medieninfo
+grunt fetch:leg:lists:constituencies --election-id=kr2011_medieninfo
+grunt fetch:leg:candidates --election-id=kr2011_medieninfo
 grunt fetch:exe:canton --election-id=rr2015_preview
+grunt fetch:exe:areas --election-id=rr2015_preview
 ```
 
+Results will be written to `data/results`.
 
 #### Never used npm and grunt?
 
@@ -53,18 +56,69 @@ The crawler always returns a `q` promise object. The crawler has a waiting time 
 
 #### Examples
 
-```
+```js
 var crawler = require('zh-vote-crawler');
 
-crawler.lists.canton('kr2011_medieninfo').then(function(rows) {
-  console.log(rows);
+crawler.leg.lists.canton('kr2011_medieninfo').then(function(resultSet) {
+  console.log(resultSet);
 });
-crawler.lists.constituencies('kr2011_medieninfo').then(function(rows) {
-  console.log(rows);
+crawler.leg.lists.constituencies('kr2011_medieninfo').then(function(resultSet) {
+  console.log(resultSet);
 });
-crawler.exe.canton('rr2015_preview').then(function(rows) {
-  console.log(rows);
+crawler.exe.areas('rr2015_preview').then(function(resultSet) {
+  console.log(resultSet);
 });
+```
+
+## Data format
+
+### Result Set
+
+```js
+{
+  "source": {
+    "time": "2015-03-25T12:13:00.000Z",
+    "area": [
+      185, // counted
+      185  // total
+    ],
+    "complete": true,
+    "fetched": "2015-04-06T20:17:19.976Z",
+    "electionId": "kr2011_medieninfo",
+    "urls": [
+      "http://www.wahlen.zh.ch/wahlen/kr2011_medieninfo/viewer.php?menu=kand_kanton"
+    ]
+  },
+  "results": []
+}
+```
+
+All dates are UTC time strings.
+
+### Result Object
+
+```js
+{
+  "id": "1-101",                 // mandatory
+  "type": "candidate" || "list", // mandatory
+  "geography": {                 // spatial limitation of result
+    "id": "zh",                  // see meta data section
+    "type": "canton"
+  },
+  "votes": 199,                  // absolute vote count
+  // list only
+  "voters": 98,                  // absolute voters count
+  "percent": 19,                 // percentage of votes
+  "quorum": true || false,       // has minimal votes to participate
+  "seats": 36,                   // seats
+  "previousSeats": 35,           // seats in previouse election
+  "previousPercent": 1           // percentage of votes in previouse election
+  // candidate only
+  "name": "Ernst Bachmann",      // first + last name
+  "party": "SVP",                // party abbr
+  "incumbent": true,             // previously elected
+  "elected": true                // is elected
+}
 ```
 
 ## Meta Data
@@ -77,3 +131,10 @@ The topojson file from http://www.statistik.zh.ch/internet/justiz_inneres/statis
 
 Matching is done with normalized and slugified area names which seems like the only available option.
 
+#### Geo Types
+
+| Type           | Values   | Description                   |
+|----------------|----------|-------------------------------|
+| `canton`       | `ZH`     | canton abbreviation           |
+| `constituency` | 1-18     | constituency #                |
+| `area`         | 1-999999 | `BFSK` - `GDENR` + district # |

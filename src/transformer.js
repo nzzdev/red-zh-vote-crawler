@@ -47,10 +47,10 @@ var rr = {
           type: 'canton'
         },
         majority: +row['abs. Mehr'],
-        votesAbs: +row.Stimmen,
+        votes: +row.Stimmen,
         elected: row.classes.indexOf('gewaehlt') !== -1
       };
-      candidate.hasMajority = candidate.majority <= candidate.votesAbs;
+      candidate.hasMajority = candidate.majority <= candidate.votes;
       return candidate;
     });
 
@@ -76,7 +76,7 @@ var rr = {
             id: area.bfsk,
             type: 'area'
           },
-          votesAbs: +value.text,
+          votes: +value.text,
           majority: value.classes.indexOf('cellquorum') !== -1
         });
       });
@@ -85,5 +85,81 @@ var rr = {
     return results;
   }
 };
-
 module.exports.rr = rr;
+
+
+var kr = {
+  kand_kanton: function(rows) {
+    var candidates = rows.map(function(row) {
+      var candidate = {
+        id: [row.Wk, row.Nr].join('-'),
+        type: 'candidate',
+        name: [row.Vorname, row.Name].join(' '),
+        party: row['Listenbez.'],
+        incumbent: row.Bisher === 'bisher',
+        geography: {
+          id: 'zh',
+          type: 'canton'
+        },
+        votes: +row.Stimmen,
+        elected: row['Gew./Abg.'] === 'gewählt'
+      };
+      return candidate;
+    });
+
+    return candidates;
+  },
+  listen_kanton: function(rows) {
+    var lists = rows.map(function(row) {
+      var list = {
+        id: row['Listen Bez.'],
+        type: 'list',
+        geography: {
+          id: 'zh',
+          type: 'canton'
+        },
+        votes: +row.Stimmen,
+        voters: +row['Wählerzahl'],
+        percent: +row['Wähleranteil %'],
+        seats: +row['Anzahl Sitze']
+      };
+      return list;
+    });
+
+    return lists;
+  },
+  listen_wk_a: function(rows) {
+    var results = [];
+
+    rows.forEach(function(row, i) {
+      var geography = {
+        id: i + 1,
+        type: 'constituency'
+      }
+
+      var lists = _.omit(_.omit(row, 'classes'), function(value, key) {
+        return !!key.match(/^Wahlkreis und Auszählstand/);
+      });
+
+      var keys = {};
+      row['Wahlkreis und Auszählstand 3'].split("\n").forEach(function(key, i) {
+        keys[key] = i;
+      });
+      _.each(lists, function(values, id) {
+        values = values.split("\n");
+        results.push({
+          id: id,
+          type: 'list',
+          geography: geography,
+          votes: +values[keys['Stimmen absolut']] || undefined,
+          voters: +values[keys['Wählerzahl']] || undefined,
+          percent: +values[keys['Stimmen %']] || undefined
+        });
+      });
+    });
+
+    return results;
+  }
+}
+module.exports.kr = kr;
+

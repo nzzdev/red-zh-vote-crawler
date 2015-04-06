@@ -84,3 +84,19 @@ module.exports.rrMeta = function($, electionId, url) {
     urls: [url]
   };
 }
+
+module.exports.krMeta = function($, electionId, url) {
+  var statusLine = $('body').text().match(/Auszählstand\s+Kantonsratswahlen[^\n]+/)[0];
+  var timeLine = statusLine.match(/am\s+(\d{2}.\d{2}.\d{4})\s+um\s+(\d{2}:\d{2})\s+Uhr/);
+  var time = zhFormat.parse(timeLine[1] + ', ' + timeLine[2]);
+  var area = statusLine.match(/(\d+) von (\d+) Gebieten/);
+
+  return {
+    time: utcTime(time),
+    area: [+area[1], +area[2]],
+    complete: area[1] === area[2] && statusLine.indexOf('definitives Endresultat') !== -1,
+    fetched: utcTime(new Date()),
+    electionId: electionId,
+    urls: [url]
+  };
+}
