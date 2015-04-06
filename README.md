@@ -101,11 +101,11 @@ All dates are UTC time strings.
 {
   "id": "1-101",                 // mandatory
   "type": "candidate" || "list", // mandatory
-  "geography": {                 // spatial limitation of result
+  "geography": {                 // mandatory, spatial limitation of result
     "id": "zh",                  // see meta data section
     "type": "canton"
   },
-  "votes": 199,                  // absolute vote count
+  "votes": 84034,                // absolute vote count
   // list only
   "voters": 98,                  // absolute voters count
   "percent": 19,                 // percentage of votes
@@ -118,8 +118,15 @@ All dates are UTC time strings.
   "party": "SVP",                // party abbr
   "incumbent": true,             // previously elected
   "elected": true                // is elected
+  // exe candidate only
+  "majority": 84034,             // number of votes to reach majority
+  "hasMajority": true            // if majority is reached
 }
 ```
+
+All non mandatory may or may not be available. The sections only imply that they could appear with a specific result or election type.
+
+It is possible that `hasMajority` is defined and `majority` is missing since some source pages only indicate weather majority is reached but not the number of votes required.
 
 ## Meta Data
 
