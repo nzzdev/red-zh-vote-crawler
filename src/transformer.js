@@ -30,7 +30,7 @@ function normalizeZhGeoName(input) {
 }
 
 function normalizeNum(input) {
-  input = input.replace(/^\s+|\s+$/g, '');
+  input = (input || '').replace(/^\s+|\s+$/g, '');
   return input === '' ? undefined : +input;
 }
 
