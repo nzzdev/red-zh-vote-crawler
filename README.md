@@ -33,12 +33,16 @@ grunt --help
 #### Examples
 
 ```
-grunt fetch:leg:lists:canton --election-id=kr2011_medieninfo
-grunt fetch:leg:lists:constituencies --election-id=kr2011_medieninfo
-grunt fetch:leg:lists:comparison:canton --election-id=kr2011_medieninfo --year=2011 --previous-year=2007
-grunt fetch:leg:candidates --election-id=kr2011_medieninfo
 grunt fetch:exe:canton --election-id=rr2015_preview
 grunt fetch:exe:areas --election-id=rr2015_preview
+
+grunt fetch:leg:lists:canton --election-id=kr2011_medieninfo
+grunt fetch:leg:lists:constituencies --election-id=kr2011_medieninfo
+grunt fetch:leg:candidates --election-id=kr2011_medieninfo
+
+grunt fetch:leg:lists:comparison:canton --election-id=kr2011_medieninfo --year=2011 --previous-year=2007
+grunt fetch:leg:lists:comparison:constituencies:percent --election-id=kr2011_medieninfo --year=2011 --previous-year=2007
+grunt fetch:leg:lists:comparison:constituencies:seats --election-id=kr2011_medieninfo --year=2011 --previous-year=2007
 ```
 
 Results will be written to `data/results`.

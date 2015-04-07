@@ -35,12 +35,24 @@ function toObjects(rows) {
     row.forEach(function(column, i) {
       var key = (header[i] || {}).text;
       if(key) {
-        object[key] = column;
+        object[key.trim()] = column;
       }
     });
     objects.push(object);
   });
   return objects;
+}
+
+function flatten(rows) {
+  rows.forEach(function(row, i) {
+    var classes = [];
+    _.each(row, function(column, key) {
+      classes.push(column.classes);
+      row[key] = column.text;
+    });
+    row.classes = _.uniq(_.flatten(classes)).filter(Boolean);
+  });
+  return rows;
 }
 
 function rmRepeatHeaders(rows) {
@@ -52,22 +64,14 @@ function rmRepeatHeaders(rows) {
 
 module.exports.rows = {
   toObjects: toObjects,
+  flatten: flatten,
   rmRepeatHeaders: rmRepeatHeaders
 };
 module.exports.cheerioTableArrays = toArrays;
 module.exports.cheerioTable = function($, $table) {
   var rows = toObjects(toArrays($, $table));
 
-  rows.forEach(function(row, i) {
-    var classes = [];
-    _.each(row, function(value, key) {
-      classes.push(value.classes);
-      row[key] = value.text;
-    });
-    row.classes = _.uniq(_.flatten(classes)).filter(Boolean);
-  });
-
-  return rows;
+  return flatten(rows);
 };
 
 var utcTime = d3.time.format.iso;

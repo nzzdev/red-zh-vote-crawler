@@ -1,5 +1,6 @@
 var Q = require('q');
 var d3 = require('d3');
+var _ = require('lodash');
 var fetcher = require('./fetcher.js');
 var converter = require('./converter.js');
 var transformer = require('./transformer.js');
@@ -18,6 +19,16 @@ function htmlFetch(url, convert) {
   }).done();
 
   return deferred.promise;
+}
+
+function verifyYears(row, years) {
+  years.forEach(function(value) {
+    if(!_.some(row, function(column) {
+      return column.text.match(value);
+    })) {
+      throw new Error('invalid year ' + value);
+    }
+  });
 }
 
 var leg = module.exports.leg = {};
@@ -54,17 +65,11 @@ var lists = leg.lists = {
 
         var preHeader = rows.shift();
 
-        [year, previousYear].forEach(function(value) {
-          if(!rows[0].some(function(column) {
-            return column.text.match(value);
-          })) {
-            throw new Error('invalid year ' + value);
-          }
-        });
+        verifyYears(rows[0], [year, previousYear]);
 
         rows[0].forEach(function(column, i) {
           column.text = (preHeader[i].rawText + ' ' + column.text)
-            .replace(/^\s+|\s+$/g, '')
+            .trim()
             .replace(/\s+/g, ' ');
         });
 
@@ -82,13 +87,74 @@ var lists = leg.lists = {
 
         return resultSet;
       });
+    },
+    constituencies: {
+      percent: function(electionId, year, previousYear) {
+        return htmlFetch(electionId + '/viewer.php?menu=listen_vergleich_wk&wk=a', function($, url) {
+          var rows = converter.cheerioTable($, $('table').eq(-2));
+
+          verifyYears([{text: rows[1]['Wahlkreis und Auszählstand 3']}], [year, previousYear]);
+
+          var resultSet = {
+            source: converter.krMeta($, {
+              electionId: electionId,
+              urls: [url],
+              year: year,
+              previousYear: previousYear
+            }),
+            results: transformer.kr.listen_vergleich_wk_a(rows, year, previousYear)
+          };
+
+          return resultSet;
+        });
+      },
+      seats: function(electionId, year, previousYear) {
+        return htmlFetch(electionId + '/viewer.php?menu=sitzzuteilung_vergleich', function($, url) {
+          var rows = converter.cheerioTableArrays($, $('table').eq(-2));
+
+          // rm double header row
+          rows.shift(); 
+
+          // add header label where missing
+          rows[0][0].text = 'area';
+          rows[0][1].text = 'labels';
+
+          verifyYears([rows[1][1]], [year, previousYear]);
+
+          rows = converter.rows.toObjects(rows);
+          rows = converter.rows.flatten(rows);
+
+          // rm canton row
+          rows.shift();
+
+          var resultSet = {
+            source: converter.krMeta($, {
+              electionId: electionId,
+              urls: [url],
+              year: year,
+              previousYear: previousYear
+            }),
+            results: transformer.kr.sitzzuteilung_vergleich(rows, year, previousYear)
+          };
+
+          return resultSet;
+        });
+      }
     }
   }
 };
 lists.canton.help = 'fetches list results';
 lists.constituencies.help = 'fetches list results in constituencies';
+
 lists.comparison.canton.help = 'fetches list results including comparisons to previous results';
 lists.comparison.canton.params = ['year', 'previous-year'];
+
+lists.comparison.constituencies.percent.help = 'fetches list results in constituencies including percent comparisons to previous results';
+lists.comparison.constituencies.percent.params = ['year', 'previous-year'];
+
+lists.comparison.constituencies.seats.help = 'fetches list results in constituencies including seats comparisons to previous results';
+lists.comparison.constituencies.seats.params = ['year', 'previous-year'];
+
 
 leg.candidates = function(electionId) {
   return htmlFetch(electionId + '/viewer.php?menu=kand_kanton', function($, url) {

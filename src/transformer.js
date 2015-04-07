@@ -30,7 +30,7 @@ function normalizeZhGeoName(input) {
 }
 
 function normalizeNum(input) {
-  input = (input || '').replace(/^\s+|\s+$/g, '');
+  input = (input || '').trim();
   return input === '' ? undefined : +input;
 }
 
@@ -152,6 +152,20 @@ var kr = {
 
     return lists;
   },
+  helpers: {
+    getLists: function(row, extraOmittances) {
+      return _.omit(_.omit(row, 'classes', extraOmittances), function(value, key) {
+        return !!key.match(/^Wahlkreis und Auszählstand/);
+      });
+    },
+    multiLineIndex: function(labelCell) {
+      var keys = {};
+      labelCell.trim().split("\n").forEach(function(key, i) {
+        keys[key.trim()] = i;
+      });
+      return keys;
+    }
+  },
   listen_wk_a: function(rows) {
     var results = [];
 
@@ -161,16 +175,10 @@ var kr = {
         type: 'constituency'
       }
 
-      var lists = _.omit(_.omit(row, 'classes'), function(value, key) {
-        return !!key.match(/^Wahlkreis und Auszählstand/);
-      });
-
-      var keys = {};
-      row['Wahlkreis und Auszählstand 3'].split("\n").forEach(function(key, i) {
-        keys[key] = i;
-      });
+      var lists = kr.helpers.getLists(row);
+      var keys = kr.helpers.multiLineIndex(row['Wahlkreis und Auszählstand 3']);
       _.each(lists, function(values, id) {
-        values = values.split("\n");
+        values = values.trim().split("\n");
         results.push({
           id: id,
           type: 'list',
@@ -178,6 +186,57 @@ var kr = {
           votes: normalizeNum(values[keys['Stimmen absolut']]),
           voters: normalizeNum(values[keys['Wählerzahl']]),
           percent: normalizeNum(values[keys['Stimmen %']])
+        });
+      });
+    });
+
+    return results;
+  },
+  listen_vergleich_wk_a: function(rows, year, previousYear) {
+    var results = [];
+
+    rows.forEach(function(row, i) {
+      var geography = {
+        id: i + 1,
+        type: 'constituency'
+      }
+
+      var lists = kr.helpers.getLists(row);
+      var keys = kr.helpers.multiLineIndex(row['Wahlkreis und Auszählstand 3']);
+      _.each(lists, function(values, id) {
+        values = values.split("\n");
+        results.push({
+          id: id,
+          type: 'list',
+          geography: geography,
+          percent: normalizeNum(values[keys['% Stimmen ' + year]]),
+          previousPercent: normalizeNum(values[keys['% Stimmen ' + previousYear]])
+        });
+      });
+    });
+
+    return results;
+  },
+  sitzzuteilung_vergleich: function(rows, year, previousYear) {
+    var results = [];
+
+    rows.forEach(function(row, i) {
+      var geography = {
+        id: i + 1,
+        type: 'constituency',
+        name: row.area.trim().replace(/\n/g, ' ').replace(/\s+/g, ' ')
+      }
+
+      var lists = kr.helpers.getLists(row, ['Total', 'area', 'labels']);
+      var keys = kr.helpers.multiLineIndex(row.labels);
+      _.each(lists, function(values, id) {
+        values = values.trim().split("\n");
+        results.push({
+          id: id.trim(),
+          type: 'list',
+          geography: geography,
+          seats: normalizeNum(values[keys['Sitze ' + year]]),
+          previousSeats: normalizeNum(values[keys['Sitze ' + previousYear]])
         });
       });
     });
