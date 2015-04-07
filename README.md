@@ -70,7 +70,7 @@ crawler.exe.areas('rr2015_preview').then(function(resultSet) {
 });
 ```
 
-## Data format
+## Data Format
 
 ### Result Set
 

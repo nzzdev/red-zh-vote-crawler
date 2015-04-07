@@ -37,11 +37,11 @@ module.exports = function(grunt) {
   }
   registerTasks(crawler);
 
-  grunt.registerTask('meta:fetch:geography', 'fetches meta data zh election geography', function() {
+  grunt.registerTask('meta:fetch:geography', 'fetches meta data about zh election geography', function() {
     geo.fetch().then(this.async()).done();
   });
 
-  grunt.registerTask('meta:status:geography', 'prepare meta data zh election geography', function() {
+  grunt.registerTask('meta:status:geography', 'shows status of geo index', function() {
     var done = this.async();
 
     var index = geo.index();
