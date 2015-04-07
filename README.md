@@ -10,7 +10,7 @@ The two example pages of the two upcoming elections are:
 - [Kantonsratswahlen](http://www.wahlen.zh.ch/wahlen/kr2011_medieninfo/viewer.php?menu=listen_kanton)
 - [Regierungsratswahlen](http://www.wahlen.zh.ch/wahlen/rr2015_preview/viewer.php?table=kandkanton)
 
-Links to the hot pages and data from it can not be published until the poles close at April 12th 12:00 PM.
+Links to the hot pages and data from it can not be published until the polls close at April 12th 12:00 PM.
 
 ## How to use
 
