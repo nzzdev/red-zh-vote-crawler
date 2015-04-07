@@ -28,7 +28,7 @@ var lists = leg.lists = {
       var rows = converter.cheerioTable($, $('table').last());
 
       var resultSet = {
-        source: converter.krMeta($, electionId, url),
+        source: converter.krMeta($, {electionId: electionId, urls: [url]}),
         results: transformer.kr.listen_kanton(rows)
       };
 
@@ -40,7 +40,7 @@ var lists = leg.lists = {
       var rows = converter.cheerioTable($, $('table').last());
 
       var resultSet = {
-        source: converter.krMeta($, electionId, url),
+        source: converter.krMeta($, {electionId: electionId, urls: [url]}),
         results: transformer.kr.listen_wk_a(rows)
       };
 
@@ -53,6 +53,15 @@ var lists = leg.lists = {
         var rows = converter.cheerioTableArrays($, $('table').eq(-3));
 
         var preHeader = rows.shift();
+
+        [year, previousYear].forEach(function(value) {
+          if(!rows[0].some(function(column) {
+            return column.text.match(value);
+          })) {
+            throw new Error('invalid year ' + value);
+          }
+        });
+
         rows[0].forEach(function(column, i) {
           column.text = (preHeader[i].rawText + ' ' + column.text)
             .replace(/^\s+|\s+$/g, '')
@@ -62,7 +71,12 @@ var lists = leg.lists = {
         rows = converter.rows.toObjects(rows);
 
         var resultSet = {
-          source: converter.krMeta($, electionId, url),
+          source: converter.krMeta($, {
+            electionId: electionId,
+            urls: [url],
+            year: year,
+            previousYear: previousYear
+          }),
           results: transformer.kr.listen_vergleich_kanton(rows, year, previousYear)
         };
 
@@ -73,7 +87,7 @@ var lists = leg.lists = {
 };
 lists.canton.help = 'fetches list results';
 lists.constituencies.help = 'fetches list results in constituencies';
-lists.comparison.canton.help = 'fetches list results with historic results';
+lists.comparison.canton.help = 'fetches list results including comparisons to previous results';
 lists.comparison.canton.params = ['year', 'previous-year'];
 
 leg.candidates = function(electionId) {
@@ -81,7 +95,7 @@ leg.candidates = function(electionId) {
     var rows = converter.cheerioTable($, $('table').last());
 
     var resultSet = {
-      source: converter.krMeta($, electionId, url),
+      source: converter.krMeta($, {electionId: electionId, urls: [url]}),
       results: transformer.kr.kand_kanton(rows)
     };
 
@@ -95,7 +109,7 @@ var exe = module.exports.exe = {
       var rows = converter.cheerioTable($, $('table').eq(-2)).slice(0, -1);
 
       var resultSet = {
-        source: converter.rrMeta($, electionId, url),
+        source: converter.rrMeta($, {electionId: electionId, urls: [url]}),
         results: transformer.rr.kandkanton(rows)
       };
 
@@ -114,7 +128,7 @@ var exe = module.exports.exe = {
       rows = converter.rows.toObjects(rows);
 
       var resultSet = {
-        source: converter.rrMeta($, electionId, url),
+        source: converter.rrMeta($, {electionId: electionId, urls: [url]}),
         results: transformer.rr.kandgemeinden(rows)
       };
 

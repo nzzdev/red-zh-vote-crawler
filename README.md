@@ -35,6 +35,7 @@ grunt --help
 ```
 grunt fetch:leg:lists:canton --election-id=kr2011_medieninfo
 grunt fetch:leg:lists:constituencies --election-id=kr2011_medieninfo
+grunt fetch:leg:lists:comparison:canton --election-id=kr2011_medieninfo --year=2011 --previous-year=2007
 grunt fetch:leg:candidates --election-id=kr2011_medieninfo
 grunt fetch:exe:canton --election-id=rr2015_preview
 grunt fetch:exe:areas --election-id=rr2015_preview
@@ -62,7 +63,7 @@ var crawler = require('zh-vote-crawler');
 crawler.leg.lists.canton('kr2011_medieninfo').then(function(resultSet) {
   console.log(resultSet);
 });
-crawler.leg.lists.constituencies('kr2011_medieninfo').then(function(resultSet) {
+crawler.leg.lists.comparison.canton('kr2011_medieninfo', 2011, 2007).then(function(resultSet) {
   console.log(resultSet);
 });
 crawler.exe.areas('rr2015_preview').then(function(resultSet) {
@@ -87,7 +88,10 @@ crawler.exe.areas('rr2015_preview').then(function(resultSet) {
     "electionId": "kr2011_medieninfo",
     "urls": [
       "http://www.wahlen.zh.ch/wahlen/kr2011_medieninfo/viewer.php?menu=kand_kanton"
-    ]
+    ],
+    // result set with previous values
+    "year": "2011",
+    "previousYear": "2007"
   },
   "results": []
 }

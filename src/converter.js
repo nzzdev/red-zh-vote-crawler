@@ -72,32 +72,30 @@ module.exports.cheerioTable = function($, $table) {
 
 var utcTime = d3.time.format.iso;
 var zhFormat = d3.time.format("%d.%m.%Y, %H:%M");
-module.exports.rrMeta = function($, electionId, url) {
+module.exports.rrMeta = function($, extra) {
   var time = zhFormat.parse($('.time').last().text());
   var area = $('body').text().match(/(\d+) von (\d+) Gebieten/);
 
-  return {
+  var source = {
     time: utcTime(time),
     area: [+area[1], +area[2]],
     complete: area[1] === area[2],
-    fetched: utcTime(new Date()),
-    electionId: electionId,
-    urls: [url]
+    fetched: utcTime(new Date())
   };
+  return _.extend(source, extra);
 }
 
-module.exports.krMeta = function($, electionId, url) {
+module.exports.krMeta = function($, extra) {
   var statusLine = $('body').text().match(/Auszählstand\s+Kantonsratswahlen[^\n]+/)[0];
   var timeLine = statusLine.match(/am\s+(\d{2}.\d{2}.\d{4})\s+um\s+(\d{2}:\d{2})\s+Uhr/);
   var time = zhFormat.parse(timeLine[1] + ', ' + timeLine[2]);
   var area = statusLine.match(/(\d+) von (\d+) Gebieten/);
 
-  return {
+  var source = {
     time: utcTime(time),
     area: [+area[1], +area[2]],
     complete: area[1] === area[2] && statusLine.indexOf('definitives Endresultat') !== -1,
-    fetched: utcTime(new Date()),
-    electionId: electionId,
-    urls: [url]
-  };
+    fetched: utcTime(new Date())
+  }
+  return _.extend(source, extra);
 }
