@@ -4,12 +4,12 @@ var crawler = require('./src/crawler.js');
 var geo = require('./src/geo.js');
 
 module.exports = function(grunt) {
-  function getElectionId() {
-    var id = grunt.option('election-id');
-    if(!id) {
-      throw new Error ('No election id provided');
+  function getParam(key) {
+    var value = grunt.option(key);
+    if(!value) {
+      throw new Error ('missing parameter ' + key);
     }
-    return id;
+    return value;
   }
 
   var resultsDir = './data/results/';
@@ -20,14 +20,17 @@ module.exports = function(grunt) {
         grunt.registerTask('fetch:' + keys.join(':'), value.help, function() {
           var done = this.async();
 
-          var electionId = getElectionId();
-          value(electionId).then(function(result) {
+          var args = ['election-id'].concat(value.params || []).map(function(key) {
+            return getParam(key);
+          });
+
+          value.apply(value, args).then(function(result) {
             fs.writeFile(
-              resultsDir + electionId + '_' + keys.join('_') + '.json',
+              resultsDir + args[0] + '_' + keys.join('_') + '.json',
               JSON.stringify(result, null, 2), 
               done
             );
-          });
+          }).done();
         });
       }
       else {

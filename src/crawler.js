@@ -46,10 +46,35 @@ var lists = leg.lists = {
 
       return resultSet;
     });
+  },
+  comparison: {
+    canton: function(electionId, year, previousYear) {
+      return htmlFetch(electionId + '/viewer.php?menu=listen_vergleich_kanton', function($, url) {
+        var rows = converter.cheerioTableArrays($, $('table').eq(-3));
+
+        var preHeader = rows.shift();
+        rows[0].forEach(function(column, i) {
+          column.text = (preHeader[i].rawText + ' ' + column.text)
+            .replace(/^\s+|\s+$/g, '')
+            .replace(/\s+/g, ' ');
+        });
+
+        rows = converter.rows.toObjects(rows);
+
+        var resultSet = {
+          source: converter.krMeta($, electionId, url),
+          results: transformer.kr.listen_vergleich_kanton(rows, year, previousYear)
+        };
+
+        return resultSet;
+      });
+    }
   }
 };
 lists.canton.help = 'fetches list results';
 lists.constituencies.help = 'fetches list results in constituencies';
+lists.comparison.canton.help = 'fetches list results with historic results';
+lists.comparison.canton.params = ['year', 'previous-year'];
 
 leg.candidates = function(electionId) {
   return htmlFetch(electionId + '/viewer.php?menu=kand_kanton', function($, url) {

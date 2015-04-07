@@ -7,15 +7,16 @@ function toArrays($, $table) {
     var columns = [];
 
     $(this).find('td').each(function() {
+      var text = $(this).html($(this).html().replace(/<br>/g, "\n")).text();
       var column = {
-        text: $(this).html($(this).html().replace(/<br>/g, "\n")).text(),
+        rawText: text,
         classes: ($(this).attr('class') || '').split(' ')
       };
 
       var colspan = $(this).attr('colspan') || 1;
       for(var i = 1; i <= colspan; i++) {
         var clone = _.clone(column);
-        clone.text += (i > 1 ? ' ' + i : '');
+        clone.text = text + (i > 1 ? ' ' + i : '');
         columns.push(clone);
       }
     });
