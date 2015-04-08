@@ -18,12 +18,7 @@ module.exports.fetch = function(argument) {
 module.exports.index = function() {
   var index = {};
 
-  var ignoreSourceId = [  // Fromat: wk + '-' + bfsk
-    '15-2302', // Oberwinterthur is always city
-    '14-226' // Schlatt is always country
-  ];
-
-  var topojson = JSON.parse(fs.readFileSync(topojsonFilePath, {encoding: 'utf8'}));
+  var topojson = JSON.parse(stripBom(fs.readFileSync(topojsonFilePath, {encoding: 'utf8'})));
 
   topojson.objects.overlay_merge2.geometries.filter(function(d) {
     return d.properties.BFS !== 0 && d.properties.Wahlkreise !== null;;
@@ -39,11 +34,7 @@ module.exports.index = function() {
       bfsk: properties.BFSK
     };
 
-    if(ignoreSourceId.indexOf(resolution.wk + '-' + resolution.bfsk) !== -1) {
-      return;
-    }
-
-    if(index[key] && !_.isEqual(resolution, index[key])) {
+    if(index[key]) {
       console.warn('conflicting key', key, resolution, index[key], properties);
     }
     else {

@@ -1,4 +1,4 @@
-{
+﻿{
   "type": "Topology",
   "objects": {
     "overlay_merge2": {
@@ -4363,7 +4363,7 @@
             "PERIMETER": 23567.1179327,
             "GEM_K_S_": 113,
             "GEM_K_S_ID": 113,
-            "BFS": 171,
+            "BFS": 297,
             "NAME_GROSS": "BAUMA",
             "NAME": "Bauma",
             "BEZIRKSNAM": "Pfäffikon",
@@ -6509,7 +6509,7 @@
             "GEM_K_S_ID": 182,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "W'thur Oberwinterthur",
+            "NAME": "Winterthur, Oberwinterthur",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 2,
             "BFSK": 2302,
@@ -6547,7 +6547,7 @@
             "GEM_K_S_ID": 183,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Wülflingen",
+            "NAME": "Winterthur, Wülflingen",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 6,
             "BFSK": 2306,
@@ -6582,7 +6582,7 @@
             "GEM_K_S_ID": 184,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Veltheim",
+            "NAME": "Winterthur, Veltheim",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 5,
             "BFSK": 2305,
@@ -6611,7 +6611,7 @@
             "GEM_K_S_ID": 185,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Altstadt",
+            "NAME": "Winterthur, Altstadt",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 1,
             "BFSK": 2301,
@@ -6644,7 +6644,7 @@
             "GEM_K_S_ID": 186,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Töss",
+            "NAME": "Winterthur, Töss",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 4,
             "BFSK": 2304,
@@ -6676,7 +6676,7 @@
             "GEM_K_S_ID": 187,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Mattenbach",
+            "NAME": "Winterthur, Mattenbach",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 7,
             "BFSK": 2307,
@@ -6706,7 +6706,7 @@
             "GEM_K_S_ID": 188,
             "BFS": 230,
             "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Seen",
+            "NAME": "Winterthur, Seen",
             "BEZIRKSNAM": "Winterthur",
             "KREIS2": 3,
             "BFSK": 2303,
@@ -6761,178 +6761,6 @@
               -115,
               -88,
               -86
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "FID_Gem_Wa": 178,
-            "AREA": 15380776.3714,
-            "PERIMETER": 22148.7799974,
-            "GEM_K_S_": 182,
-            "GEM_K_S_ID": 182,
-            "BFS": 230,
-            "NAME_GROSS": "WINTERTHUR",
-            "NAME": "W'thur Oberwinterthur",
-            "BEZIRKSNAM": "Winterthur",
-            "KREIS2": 2,
-            "BFSK": 2302,
-            "FID_Wahlkr": 5,
-            "Wahlkreise": "Wahlkreis 14",
-            "Wahlkrei_1": 14,
-            "Wahlkrei_2": "XIV Winterthur-Stadt",
-            "xkoor": 702261.525535,
-            "ykoor": 260097.264802
-          },
-          "arcs": [
-            [
-              -563,
-              -551
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "FID_Gem_Wa": 184,
-            "AREA": 12972184.4948,
-            "PERIMETER": 14229.1131547,
-            "GEM_K_S_": 188,
-            "GEM_K_S_ID": 188,
-            "BFS": 230,
-            "NAME_GROSS": "WINTERTHUR",
-            "NAME": "Winterthur Seen",
-            "BEZIRKSNAM": "Winterthur",
-            "KREIS2": 3,
-            "BFSK": 2303,
-            "FID_Wahlkr": 5,
-            "Wahlkreise": "Wahlkreis 14",
-            "Wahlkrei_1": 14,
-            "Wahlkrei_2": "XIV Winterthur-Stadt",
-            "xkoor": 702261.525535,
-            "ykoor": 260097.264802
-          },
-          "arcs": [
-            [
-              -563,
-              -551
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "FID_Gem_Wa": 66,
-            "AREA": 8972449.3412,
-            "PERIMETER": 14311.9722195,
-            "GEM_K_S_": 68,
-            "GEM_K_S_ID": 68,
-            "BFS": 226,
-            "NAME_GROSS": "SCHLATT",
-            "NAME": "Schlatt",
-            "BEZIRKSNAM": "Winterthur",
-            "KREIS2": 0,
-            "BFSK": 226,
-            "FID_Wahlkr": 5,
-            "Wahlkreise": "Wahlkreis 14",
-            "Wahlkrei_1": 14,
-            "Wahlkrei_2": "XIV Winterthur-Stadt",
-            "xkoor": 703011.799079,
-            "ykoor": 259921.743837
-          },
-          "arcs": [
-            [
-              -549,
-              -548,
-              -220
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "FID_Gem_Wa": 66,
-            "AREA": 8972449.3412,
-            "PERIMETER": 14311.9722195,
-            "GEM_K_S_": 68,
-            "GEM_K_S_ID": 68,
-            "BFS": 226,
-            "NAME_GROSS": "SCHLATT",
-            "NAME": "Schlatt",
-            "BEZIRKSNAM": "Winterthur",
-            "KREIS2": 0,
-            "BFSK": 226,
-            "FID_Wahlkr": 6,
-            "Wahlkreise": "Wahlkreis 15",
-            "Wahlkrei_1": 15,
-            "Wahlkrei_2": "XV Winterthur-Land",
-            "xkoor": 703011.799079,
-            "ykoor": 259921.743837
-          },
-          "arcs": [
-            [
-              -549,
-              -548,
-              -220
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "FID_Gem_Wa": 178,
-            "AREA": 15380776.3714,
-            "PERIMETER": 22148.7799974,
-            "GEM_K_S_": 182,
-            "GEM_K_S_ID": 182,
-            "BFS": 230,
-            "NAME_GROSS": "WINTERTHUR",
-            "NAME": "W'thur Oberwinterthur",
-            "BEZIRKSNAM": "Winterthur",
-            "KREIS2": 2,
-            "BFSK": 2302,
-            "FID_Wahlkr": 5,
-            "Wahlkreise": "Wahlkreis 14",
-            "Wahlkrei_1": 14,
-            "Wahlkrei_2": "XIV Winterthur-Stadt",
-            "xkoor": 703011.799079,
-            "ykoor": 259921.743837
-          },
-          "arcs": [
-            [
-              -549,
-              -548,
-              -220
-            ]
-          ]
-        },
-        {
-          "type": "Polygon",
-          "properties": {
-            "FID_Gem_Wa": 178,
-            "AREA": 15380776.3714,
-            "PERIMETER": 22148.7799974,
-            "GEM_K_S_": 182,
-            "GEM_K_S_ID": 182,
-            "BFS": 230,
-            "NAME_GROSS": "WINTERTHUR",
-            "NAME": "W'thur Oberwinterthur",
-            "BEZIRKSNAM": "Winterthur",
-            "KREIS2": 2,
-            "BFSK": 2302,
-            "FID_Wahlkr": 6,
-            "Wahlkreise": "Wahlkreis 15",
-            "Wahlkrei_1": 15,
-            "Wahlkrei_2": "XV Winterthur-Land",
-            "xkoor": 703011.799079,
-            "ykoor": 259921.743837
-          },
-          "arcs": [
-            [
-              -549,
-              -548,
-              -220
             ]
           ]
         }

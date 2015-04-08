@@ -144,7 +144,7 @@ Some meta data is needed to aggregate and later visualize the results.
 
 ### Geography
 
-The topojson file from http://www.statistik.zh.ch/internet/justiz_inneres/statistik/de/wahlen_abstimmungen/wahlen_2015/KRW_2015/wahlkreis.html is used. Currently the source file is checked into git as it's unclear how stable the direct link to the topjson file is.
+`geo_source.json` is a modified version of the [topojson file published by the Statistical Office](http://www.statistik.zh.ch/internet/justiz_inneres/statistik/de/wahlen_abstimmungen/wahlen_2015/KRW_2015/wahlkreis.html) provided by Matthias Mazenauer.
 
 Matching is done with normalized and slugified area names which seems like the only available option.
 
