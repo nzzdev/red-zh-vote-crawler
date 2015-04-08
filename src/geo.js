@@ -15,7 +15,7 @@ module.exports.fetch = function(argument) {
   });
 }
 
-module.exports.index = function() {
+var index = module.exports.index = _.memoize(function() {
   var index = {};
 
   var topojson = JSON.parse(stripBom(fs.readFileSync(topojsonFilePath, {encoding: 'utf8'})));
@@ -43,4 +43,12 @@ module.exports.index = function() {
   });
 
   return index;
-}
+});
+
+var bfskIndex = module.exports.bfskIndex = _.memoize(function() {
+  return _.indexBy(index(), 'bfsk');
+});
+
+module.exports.areaToConstituencyId = function(areaId) {
+  return (bfskIndex()[areaId] || {}).wk;
+};

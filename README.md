@@ -32,7 +32,10 @@ grunt --help
 
 #### Examples
 
-```
+```bash
+grunt fetch:exe:combined --election-id=rr2015_preview
+
+# detail endpoints
 grunt fetch:exe:canton --election-id=rr2015_preview
 grunt fetch:exe:areas --election-id=rr2015_preview
 
@@ -70,7 +73,7 @@ crawler.leg.lists.canton('kr2011_medieninfo').then(function(resultSet) {
 crawler.leg.lists.comparison.canton('kr2011_medieninfo', 2011, 2007).then(function(resultSet) {
   console.log(resultSet);
 });
-crawler.exe.areas('rr2015_preview').then(function(resultSet) {
+crawler.exe.combined('rr2015_preview').then(function(resultSet) {
   console.log(resultSet);
 });
 ```
@@ -97,11 +100,27 @@ crawler.exe.areas('rr2015_preview').then(function(resultSet) {
     "year": "2011",
     "previousYear": "2007"
   },
+  "meta": [],
   "results": []
 }
 ```
 
 All dates are UTC time strings.
+
+### Meta Object
+
+Meta object can hold any arbitrary data about a result object. The data should not be geo specific. The only mandatory fields are `id` and `type`.
+
+```js
+{
+  "id": "1-101",                 // mandatory
+  "type": "candidate" || "list", // mandatory
+  // example candidate
+  "name": "Ernst Bachmann",      // first + last name
+  "party": "SVP",                // party abbr
+  "incumbent": true,             // previously elected
+}
+```
 
 ### Result Object
 
@@ -124,9 +143,6 @@ All dates are UTC time strings.
   "previousVotersPercent": 1     // percentage of votes in previouse election
   "previousVotesPercent": 1      // percentage of votes in previouse election
   // candidate only
-  "name": "Ernst Bachmann",      // first + last name
-  "party": "SVP",                // party abbr
-  "incumbent": true,             // previously elected
   "elected": true                // is elected
   // exe candidate only
   "majority": 84034,             // number of votes to reach majority

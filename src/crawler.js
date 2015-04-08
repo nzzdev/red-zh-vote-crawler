@@ -1,9 +1,12 @@
 var Q = require('q');
 var d3 = require('d3');
 var _ = require('lodash');
+var fs = require('fs');
+
 var fetcher = require('./fetcher.js');
 var converter = require('./converter.js');
 var transformer = require('./transformer.js');
+var aggregater = require('./aggregater.js');
 
 var baseUrl = 'http://www.wahlen.zh.ch/wahlen/';
 var utcTime = d3.time.format.iso;
@@ -31,6 +34,20 @@ function verifyYears(row, years) {
   });
 }
 
+var resultsDir = './data/results/';
+function loadLocally(electionId, keys) {
+  var deferred = Q.defer();
+
+  var filePath = resultsDir + electionId + '_' + keys.join('_') + '.json';
+  fs.readFile(filePath, {encoding: 'utf8'}, function(err, data) {
+    if(err) throw err;
+
+    deferred.resolve(JSON.parse(data));
+  });
+
+  return deferred.promise;
+}
+
 var leg = module.exports.leg = {};
 
 var lists = leg.lists = {
@@ -39,9 +56,9 @@ var lists = leg.lists = {
       var rows = converter.cheerioTable($, $('table').last());
 
       var resultSet = {
-        source: converter.krMeta($, {electionId: electionId, urls: [url]}),
-        results: transformer.kr.listen_kanton(rows)
+        source: converter.krMeta($, {electionId: electionId, urls: [url]})
       };
+      _.extend(resultSet, transformer.kr.listen_kanton(rows));
 
       return resultSet;
     });
@@ -51,9 +68,9 @@ var lists = leg.lists = {
       var rows = converter.cheerioTable($, $('table').last());
 
       var resultSet = {
-        source: converter.krMeta($, {electionId: electionId, urls: [url]}),
-        results: transformer.kr.listen_wk_a(rows)
+        source: converter.krMeta($, {electionId: electionId, urls: [url]})
       };
+      _.extend(resultSet, transformer.kr.listen_wk_a(rows));
 
       return resultSet;
     });
@@ -81,9 +98,9 @@ var lists = leg.lists = {
             urls: [url],
             year: year,
             previousYear: previousYear
-          }),
-          results: transformer.kr.listen_vergleich_kanton(rows, year, previousYear)
+          })
         };
+        _.extend(resultSet, transformer.kr.listen_vergleich_kanton(rows, year, previousYear));
 
         return resultSet;
       });
@@ -101,9 +118,9 @@ var lists = leg.lists = {
               urls: [url],
               year: year,
               previousYear: previousYear
-            }),
-            results: transformer.kr.listen_vergleich_wk_a(rows, year, previousYear)
+            })
           };
+          _.extend(resultSet, transformer.kr.listen_vergleich_wk_a(rows, year, previousYear));
 
           return resultSet;
         });
@@ -133,9 +150,9 @@ var lists = leg.lists = {
               urls: [url],
               year: year,
               previousYear: previousYear
-            }),
-            results: transformer.kr.sitzzuteilung_vergleich(rows, year, previousYear)
+            })
           };
+          _.extend(resultSet, transformer.kr.sitzzuteilung_vergleich(rows, year, previousYear));
 
           return resultSet;
         });
@@ -161,9 +178,9 @@ leg.candidates = function(electionId) {
     var rows = converter.cheerioTable($, $('table').last());
 
     var resultSet = {
-      source: converter.krMeta($, {electionId: electionId, urls: [url]}),
-      results: transformer.kr.kand_kanton(rows)
+      source: converter.krMeta($, {electionId: electionId, urls: [url]})
     };
+    _.extend(resultSet, transformer.kr.kand_kanton(rows));
 
     return resultSet;
   });
@@ -175,9 +192,9 @@ var exe = module.exports.exe = {
       var rows = converter.cheerioTable($, $('table').eq(-2)).slice(0, -1);
 
       var resultSet = {
-        source: converter.rrMeta($, {electionId: electionId, urls: [url]}),
-        results: transformer.rr.kandkanton(rows)
+        source: converter.rrMeta($, {electionId: electionId, urls: [url]})
       };
+      _.extend(resultSet, transformer.rr.kandkanton(rows));
 
       return resultSet;
     });
@@ -194,14 +211,44 @@ var exe = module.exports.exe = {
       rows = converter.rows.toObjects(rows);
 
       var resultSet = {
-        source: converter.rrMeta($, {electionId: electionId, urls: [url]}),
-        results: transformer.rr.kandgemeinden(rows)
+        source: converter.rrMeta($, {electionId: electionId, urls: [url]})
       };
+      _.extend(resultSet, transformer.rr.kandgemeinden(rows));
 
       return resultSet;
     });
+  },
+  combined: function(electionId) {
+    var deferred = Q.defer();
+
+    Q.all([
+      exe.canton(electionId),
+      exe.areas(electionId)
+    ]).then(function(resultSets) {
+      var canton = resultSets[0];
+      var areas = resultSets[1];
+
+      var resultSet = {
+        source: aggregater.source(canton.source, areas.source),
+        meta: canton.meta,
+        results: []
+          .concat(canton.results)
+          .concat(aggregater.areasToConstituencies(areas.results))
+          .concat(areas.results)
+      };
+
+      if(!resultSet.source) {
+        deferred.reject('results can\'t be combined because of different source states', canton.source, areas.source);
+      }
+      else {
+        deferred.resolve(resultSet);
+      }
+    }).done();
+
+    return deferred.promise;
   }
 };
+
 exe.canton.help = 'fetches executive candidate results';
 exe.areas.help = 'fetches executive candidate results in all areas';
 

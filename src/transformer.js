@@ -40,13 +40,12 @@ module.exports.normalizeId = normalizeId;
 var rr = {
   candidateId: normalizeId,
   kandkanton: function(rows) {
-    var candidates = rows.map(function(row) {
+    var meta = [];
+    var results = rows.map(function(row) {
+      var id = rr.candidateId(row.Name);
       var candidate = {
-        id: rr.candidateId(row.Name),
+        id: id,
         type: 'candidate',
-        name: row.Name,
-        party: row.Partei,
-        incumbent: row.Bisher === 'bisher',
         geography: {
           id: 'zh',
           type: 'canton'
@@ -55,28 +54,39 @@ var rr = {
         votes: normalizeNum(row.Stimmen),
         elected: row.classes.indexOf('gewaehlt') !== -1
       };
+      meta.push({
+        id: id,
+        type: 'candidate',
+        name: row.Name,
+        party: row.Partei,
+        incumbent: row.Bisher === 'bisher',
+      });
       candidate.hasMajority = candidate.majority <= candidate.votes;
       return candidate;
     });
 
-    return candidates;
+    return {
+      meta: meta,
+      results: results
+    };
   },
   kandgemeinden: function(rows) {
     var results = [];
+    var meta = [];
 
     var geoIndex = geo.index();
     rows.forEach(function(row) {
-      var name = normalizeZhGeoName(row.area.text);
-      var area = geoIndex[normalizeId(name)];
+      var geoName = normalizeZhGeoName(row.area.text);
+      var area = geoIndex[normalizeId(geoName)];
       if(!area) {
-        console.warn('unrecognised area', name, row);
+        console.warn('unrecognised area', geoName, row);
         return;
       }
       _.each(_.omit(row, 'area'), function(value, name) {
+        var id = rr.candidateId(name);
         results.push({
-          id: rr.candidateId(name),
+          id: id,
           type: 'candidate',
-          name: name,
           geography: {
             id: area.bfsk,
             type: 'area'
@@ -84,10 +94,18 @@ var rr = {
           votes: normalizeNum(value.text),
           majority: value.classes.indexOf('cellquorum') !== -1
         });
+        meta.push({
+          id: id,
+          type: 'candidate',
+          name: name
+        });
       });
     });
 
-    return results;
+    return {
+      meta: _.uniq(meta, 'id'),
+      results: results
+    };
   }
 };
 module.exports.rr = rr;
@@ -95,13 +113,13 @@ module.exports.rr = rr;
 
 var kr = {
   kand_kanton: function(rows) {
-    var candidates = rows.map(function(row) {
+    var meta = [];
+
+    var results = rows.map(function(row) {
+      var id = [row.Wk, row.Nr].join('-');
       var candidate = {
-        id: [row.Wk, row.Nr].join('-'),
+        id: id,
         type: 'candidate',
-        name: [row.Vorname, row.Name].join(' '),
-        party: row['Listenbez.'],
-        incumbent: row.Bisher === 'bisher',
         geography: {
           id: 'zh',
           type: 'canton'
@@ -109,10 +127,23 @@ var kr = {
         votes: normalizeNum(row.Stimmen),
         elected: row['Gew./Abg.'] === 'gewählt'
       };
+      meta.push({
+        id: id,
+        type: 'candidate',
+        party: row['Listenbez.'],
+        name: [row.Vorname, row.Name].join(' '),
+        occupation: row.Beruf,
+        birthyear: row.Jahrgang,
+        residence: row.Wohnort,
+        incumbent: row.Bisher === 'bisher',
+      });
       return candidate;
     });
 
-    return candidates;
+    return {
+      meta: meta,
+      results: results
+    };
   },
   listen_kanton: function(rows) {
     var lists = rows.map(function(row) {
@@ -131,7 +162,9 @@ var kr = {
       return list;
     });
 
-    return lists;
+    return {
+      results: lists
+    };
   },
   listen_vergleich_kanton: function(rows, year, previousYear) {
     var lists = rows.map(function(row) {
@@ -150,7 +183,9 @@ var kr = {
       return list;
     });
 
-    return lists;
+    return {
+      results: lists
+    };
   },
   helpers: {
     getLists: function(row, extraOmittances) {
@@ -190,7 +225,9 @@ var kr = {
       });
     });
 
-    return results;
+    return {
+      results: results
+    };
   },
   listen_vergleich_wk_a: function(rows, year, previousYear) {
     var results = [];
@@ -215,7 +252,9 @@ var kr = {
       });
     });
 
-    return results;
+    return {
+      results: results
+    };
   },
   sitzzuteilung_vergleich: function(rows, year, previousYear) {
     var results = [];
@@ -223,8 +262,7 @@ var kr = {
     rows.forEach(function(row, i) {
       var geography = {
         id: i + 1,
-        type: 'constituency',
-        name: row.area.trim().replace(/\n/g, ' ').replace(/\s+/g, ' ')
+        type: 'constituency'
       }
 
       var lists = kr.helpers.getLists(row, ['Total', 'area', 'labels']);
@@ -241,7 +279,9 @@ var kr = {
       });
     });
 
-    return results;
+    return {
+      results: results
+    };
   }
 }
 module.exports.kr = kr;
