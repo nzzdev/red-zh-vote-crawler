@@ -31,7 +31,7 @@ function normalizeZhGeoName(input) {
 
 function normalizeNum(input) {
   input = (input || '').trim();
-  return input === '' ? undefined : +input;
+  return input === '' ? null : +input;
 }
 
 module.exports.normalizeZhGeoName = normalizeZhGeoName;
