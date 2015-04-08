@@ -125,7 +125,7 @@ var kr = {
         },
         votes: normalizeNum(row.Stimmen),
         voters: normalizeNum(row['Wählerzahl']),
-        percent: normalizeNum(row['Wähleranteil %']),
+        votersPercent: normalizeNum(row['Wähleranteil %']),
         seats: normalizeNum(row['Anzahl Sitze'])
       };
       return list;
@@ -142,8 +142,8 @@ var kr = {
           id: 'zh',
           type: 'canton'
         },
-        percent: normalizeNum(row['% Wähleranteil ' + year].text),
-        previousPercent: normalizeNum(row['% Wähleranteil ' + previousYear].text),
+        votersPercent: normalizeNum(row['% Wähleranteil ' + year].text),
+        previousVotersPercent: normalizeNum(row['% Wähleranteil ' + previousYear].text),
         seats: normalizeNum(row['Sitze ' + year].text),
         previousSeats: normalizeNum(row['Sitze ' + previousYear].text)
       };
@@ -185,7 +185,7 @@ var kr = {
           geography: geography,
           votes: normalizeNum(values[keys['Stimmen absolut']]),
           voters: normalizeNum(values[keys['Wählerzahl']]),
-          percent: normalizeNum(values[keys['Stimmen %']])
+          votesPercent: normalizeNum(values[keys['Stimmen %']])
         });
       });
     });
@@ -209,8 +209,8 @@ var kr = {
           id: id,
           type: 'list',
           geography: geography,
-          percent: normalizeNum(values[keys['% Stimmen ' + year]]),
-          previousPercent: normalizeNum(values[keys['% Stimmen ' + previousYear]])
+          votesPercent: normalizeNum(values[keys['% Stimmen ' + year]]),
+          previousVotesPercent: normalizeNum(values[keys['% Stimmen ' + previousYear]])
         });
       });
     });

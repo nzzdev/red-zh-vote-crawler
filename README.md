@@ -116,11 +116,13 @@ All dates are UTC time strings.
   "votes": 84034,                // absolute vote count
   // list only
   "voters": 98,                  // absolute voters count
-  "percent": 19,                 // percentage of votes
+  "votersPercent": 17,           // percentage of voters
+  "votesPercent": 19,            // percentage of votes
   "quorum": true || false,       // has minimal votes to participate
   "seats": 36,                   // seats
   "previousSeats": 35,           // seats in previouse election
-  "previousPercent": 1           // percentage of votes in previouse election
+  "previousVotersPercent": 1     // percentage of votes in previouse election
+  "previousVotesPercent": 1      // percentage of votes in previouse election
   // candidate only
   "name": "Ernst Bachmann",      // first + last name
   "party": "SVP",                // party abbr
