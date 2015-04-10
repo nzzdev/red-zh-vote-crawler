@@ -158,6 +158,56 @@ var lists = leg.lists = {
         });
       }
     }
+  },
+  combined: function(electionId, year, previousYear) {
+    var deferred = Q.defer();
+
+    Q.all([
+      lists.canton(electionId),
+      lists.comparison.canton(electionId, year, previousYear),
+      lists.constituencies(electionId),
+      lists.comparison.constituencies.percent(electionId, year, previousYear),
+      lists.comparison.constituencies.seats(electionId, year, previousYear)
+    ]).then(function(resultSets) {
+      var lists = resultSets[0];
+      lists.source.year = year;
+      lists.source.previousYear = previousYear;
+      var listsComparison = resultSets[1];
+
+      var listsConstituencies = resultSets[2];
+      listsConstituencies.source.year = year;
+      listsConstituencies.source.previousYear = previousYear;
+      var listsConstituenciesCompPercent = resultSets[3];
+      var listsConstituenciesCompSeats = resultSets[4];
+
+      var resultSet = {
+        source: aggregater.source(
+          aggregater.source(lists.source, listsComparison.source),
+          aggregater.source(listsConstituencies.source, 
+            aggregater.source(listsConstituenciesCompPercent.source, listsConstituenciesCompSeats.source)
+          )
+        ),
+        // meta: lists.meta,
+        results: []
+          .concat(aggregater.mergeResults(
+            lists.results.concat(listsComparison.results)
+          ))
+          .concat(aggregater.mergeResults(
+            listsConstituencies.results
+              .concat(listsConstituenciesCompPercent.results)
+              .concat(listsConstituenciesCompSeats.results)
+          ))
+      };
+
+      if(!resultSet.source) {
+        deferred.reject('results can\'t be combined because of different source states', canton.source, areas.source);
+      }
+      else {
+        deferred.resolve(resultSet);
+      }
+    }).done();
+
+    return deferred.promise;
   }
 };
 lists.canton.help = 'fetches list results';
@@ -171,6 +221,9 @@ lists.comparison.constituencies.percent.params = ['year', 'previous-year'];
 
 lists.comparison.constituencies.seats.help = 'fetches list results in constituencies including seats comparisons to previous results';
 lists.comparison.constituencies.seats.params = ['year', 'previous-year'];
+
+lists.combined.help = '';
+lists.combined.params = ['year', 'previous-year'];
 
 
 leg.candidates = function(electionId) {

@@ -34,6 +34,7 @@ grunt --help
 
 ```bash
 grunt fetch:exe:combined --election-id=rr2015_preview
+grunt fetch:leg:lists:combined --election-id=kr2011_medieninfo --year=2011 --previous-year=2007
 
 # detail endpoints
 grunt fetch:exe:canton --election-id=rr2015_preview

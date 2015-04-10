@@ -3,11 +3,11 @@ var d3 = require('d3');
 var geo = require('./geo');
 
 var classifications = {
-  essential: ['urls', 'fetched']
+  nonessential: ['urls', 'fetched', 'aggregated']
 }
 
 function essentialSource(source) {
-  return _.omit(source, classifications.essential);
+  return _.omit(source, classifications.nonessential);
 }
 
 var utcTime = d3.time.format.iso;
@@ -59,6 +59,24 @@ module.exports.areasToConstituencies = function(results) {
       return d.values;
     });
 };
+
+module.exports.mergeResults = function(results) {
+  return d3.nest()
+    .key(function(d) {
+      return [d.type, d.id, d.geography.type, d.geography.id].join('|');
+    })
+    .rollup(function(values) {
+      var aggregate = {};
+      values.forEach(function(value) {
+        _.extend(aggregate, value);
+      });
+      return aggregate;
+    })
+    .entries(results)
+    .map(function(d) {
+      return d.values;
+    });
+}
 
 module.exports.addResultMeta = function(results, metaSource, keys) {
   return results;
