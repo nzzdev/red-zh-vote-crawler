@@ -91,8 +91,8 @@ module.exports.rrMeta = function($, extra) {
 
 module.exports.krMeta = function($, extra) {
   var statusLine = $('body').text().match(/Auszählstand\s+Kantonsratswahlen[^\n]+/)[0];
-  var timeLine = statusLine.match(/am\s+(\d{2}.\d{2}.\d{4})\s+um\s+(\d{2}:\d{2})\s+Uhr/);
-  var time = zhFormat.parse(timeLine[1] + ', ' + timeLine[2]);
+  var timeLine = statusLine.match(/am\s+(\d{2}.\d{2}.\d{4})(\s+um\s+|\,\s+)(\d{2}:\d{2})\s+Uhr/);
+  var time = zhFormat.parse(timeLine[1] + ', ' + timeLine[3]);
   var area = statusLine.match(/(\d+) von (\d+) Gebieten/);
 
   var source = {
