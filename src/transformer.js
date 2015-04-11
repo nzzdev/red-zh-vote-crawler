@@ -205,10 +205,23 @@ var kr = {
     var results = [];
 
     rows.forEach(function(row, i) {
+
+      var area = row['Wahlkreis und Auszählstand 2'].match(/(\d+)\s+von\s+(\d+)\s+Gebieten/);
+      var complete = null;
+      if(!area || area.length < 3) {
+        console.warn('Can\'t retrieve completeness of constituency', row['Wahlkreis und Auszählstand']);
+        area = null;
+      }
+      else {
+        area = [+area[1], +area[2]];
+        complete = area[0] === area[1];
+      }
       var geography = {
         id: i + 1,
-        type: 'constituency'
-      }
+        type: 'constituency',
+        area: area,
+        complete: complete
+      };
 
       var lists = kr.helpers.getLists(row);
       var keys = kr.helpers.multiLineIndex(row['Wahlkreis und Auszählstand 3']);

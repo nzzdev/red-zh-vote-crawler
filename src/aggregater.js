@@ -45,12 +45,18 @@ module.exports.areasToConstituencies = function(results) {
       _.extend(aggregate, _.pick(values[0], ['id', 'type', 'name']))
 
       var geoId = geo.areaToConstituencyId(values[0].geography.id);
-      aggregate.geography = {
+      var geography = aggregate.geography = {
         id: geoId,
         type: geoId ? 'constituency' : 'unkown'
       };
 
-      aggregate.votes =  d3.sum(values, function(d) { return d.votes; });
+      var valuesWithVotes = values.filter(function(d) {
+        return d.votes !== null;
+      });
+      aggregate.votes =  d3.sum(valuesWithVotes, function(d) { return d.votes; });
+
+      var area = geography.area = [valuesWithVotes.length, values.length];
+      geography.complete = area[0] === area[1];
 
       return aggregate;
     })
@@ -66,9 +72,12 @@ module.exports.mergeResults = function(results) {
       return [d.type, d.id, d.geography.type, d.geography.id].join('|');
     })
     .rollup(function(values) {
-      var aggregate = {};
+      var aggregate = {
+        geography: {}
+      };
       values.forEach(function(value) {
-        _.extend(aggregate, value);
+        _.extend(aggregate.geography, value.geography);
+        _.extend(aggregate, _.omit(value, 'geography'));
       });
       return aggregate;
     })

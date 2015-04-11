@@ -127,11 +127,16 @@ Meta object can hold any arbitrary data about a result object. The data should n
 
 ```js
 {
-  "id": "1-101",                 // mandatory
-  "type": "candidate" || "list", // mandatory
+  "id": "SVP",                   // mandatory
+  "type": "list" || "candidate", // mandatory
   "geography": {                 // mandatory, spatial limitation of result
-    "id": "zh",                  // see meta data section
-    "type": "canton"
+    "id": 17,                    // see meta data section
+    "type": "constituency",
+    "area": [                    // constituency only: partial count info
+      10,                        // counted
+      22                         // total
+    ],
+    "complete": false            // area[0] === area[1]
   },
   "votes": 84034,                // absolute vote count
   // list only
