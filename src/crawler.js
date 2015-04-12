@@ -11,6 +11,11 @@ var aggregater = require('./aggregater.js');
 var baseUrl = 'http://www.wahlen.zh.ch/wahlen/';
 var utcTime = d3.time.format.iso;
 
+var loginString = '';
+if(process.env.ZH_VOTE_CRAWLER_USER && process.env.ZH_VOTE_CRAWLER_PW) {
+  loginString = '&u=' + process.env.ZH_VOTE_CRAWLER_USER + '&p=' + process.env.ZH_VOTE_CRAWLER_PW;
+}
+
 function htmlFetch(url, convert) {
   var deferred = Q.defer();
 
@@ -52,7 +57,7 @@ var leg = module.exports.leg = {};
 
 var lists = leg.lists = {
   canton: function(electionId) {
-    return htmlFetch(electionId + '/viewer.php?menu=listen_kanton', function($, url) {
+    return htmlFetch(electionId + '/viewer.php?menu=listen_kanton' + loginString, function($, url) {
       var rows = converter.cheerioTable($, $('table').last());
 
       var resultSet = {
@@ -64,7 +69,7 @@ var lists = leg.lists = {
     });
   },
   constituencies: function(electionId) {
-    return htmlFetch(electionId + '/viewer.php?menu=listen_wk&wk=a', function($, url) {
+    return htmlFetch(electionId + '/viewer.php?menu=listen_wk&wk=a' + loginString, function($, url) {
       var rows = converter.cheerioTable($, $('table').last());
 
       var resultSet = {
@@ -77,7 +82,7 @@ var lists = leg.lists = {
   },
   comparison: {
     canton: function(electionId, year, previousYear) {
-      return htmlFetch(electionId + '/viewer.php?menu=listen_vergleich_kanton', function($, url) {
+      return htmlFetch(electionId + '/viewer.php?menu=listen_vergleich_kanton' + loginString, function($, url) {
         var rows = converter.cheerioTableArrays($, $('table').eq(-3));
 
         var preHeader = rows.shift();
@@ -107,7 +112,7 @@ var lists = leg.lists = {
     },
     constituencies: {
       percent: function(electionId, year, previousYear) {
-        return htmlFetch(electionId + '/viewer.php?menu=listen_vergleich_wk&wk=a', function($, url) {
+        return htmlFetch(electionId + '/viewer.php?menu=listen_vergleich_wk&wk=a' + loginString, function($, url) {
           var rows = converter.cheerioTable($, $('table').eq(-2));
 
           verifyYears([{text: rows[1]['Wahlkreis und Auszählstand 3']}], [year, previousYear]);
@@ -126,7 +131,7 @@ var lists = leg.lists = {
         });
       },
       seats: function(electionId, year, previousYear) {
-        return htmlFetch(electionId + '/viewer.php?menu=sitzzuteilung_vergleich', function($, url) {
+        return htmlFetch(electionId + '/viewer.php?menu=sitzzuteilung_vergleich' + loginString, function($, url) {
           var rows = converter.cheerioTableArrays($, $('table').eq(-2));
 
           // rm double header row
@@ -227,7 +232,7 @@ lists.combined.params = ['year', 'previous-year'];
 
 
 leg.candidates = function(electionId) {
-  return htmlFetch(electionId + '/viewer.php?menu=kand_kanton', function($, url) {
+  return htmlFetch(electionId + '/viewer.php?menu=kand_kanton' + loginString, function($, url) {
     var rows = converter.cheerioTable($, $('table').last());
 
     var resultSet = {
@@ -241,7 +246,7 @@ leg.candidates = function(electionId) {
 
 var exe = module.exports.exe = {
   canton: function(electionId) {
-    return htmlFetch(electionId + '/viewer.php?table=kandkanton', function($, url) {
+    return htmlFetch(electionId + '/viewer.php?table=kandkanton' + loginString, function($, url) {
       var rows = converter.cheerioTable($, $('table').eq(-2)).slice(0, -1);
 
       var resultSet = {
@@ -253,7 +258,7 @@ var exe = module.exports.exe = {
     });
   },
   areas: function(electionId) {
-    return htmlFetch(electionId + '/viewer.php?table=kandgemeinden', function($, url) {
+    return htmlFetch(electionId + '/viewer.php?table=kandgemeinden' + loginString, function($, url) {
       var rows = converter.cheerioTableArrays($, $('table').eq(-2)).slice(0, -1);
 
       rows = converter.rows.rmRepeatHeaders(rows);
