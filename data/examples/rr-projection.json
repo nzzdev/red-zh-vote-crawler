@@ -1,0 +1,264 @@
+{
+  "source": {
+    "time": "2015-04-07T13:49:00.000Z",
+    "area": [
+      180,
+      183
+    ],
+    "complete": false,
+    "fetched": "2015-04-12T13:57:41.488Z",
+    "electionId": "rr2015",
+    "urls": [
+      "http://www.wahlen.zh.ch/wahlen/rr2015/viewer.php?table=hochrechnung"
+    ]
+  },
+  "results": [
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 91000,
+      "votes": 67000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 67000,
+      "votesMax": 67000
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 117000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 117000,
+      "votesMax": 117000
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 147000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 147000,
+      "votesMax": 147000
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 110000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 110000,
+      "votesMax": 110000
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 43000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 43000,
+      "votesMax": 43000
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 150000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 150000,
+      "votesMax": 150000
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 137000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 137000,
+      "votesMax": 137000
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 43000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 43000,
+      "votesMax": 43000
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 118000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 118000,
+      "votesMax": 118000
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 146000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 146000,
+      "votesMax": 146000
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": null,
+      "votes": 115000,
+      "elected": false,
+      "hasMajority": true,
+      "votesMin": 115000,
+      "votesMax": 115000
+    }
+  ],
+  "meta": [
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "name": "Markus Bischoff",
+      "party": "AL",
+      "incumbent": false
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "name": "Jacqueline Fehr",
+      "party": "SP",
+      "incumbent": false
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "name": "Mario Fehr",
+      "party": "SP",
+      "incumbent": true
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "name": "Martin Graf",
+      "party": "Grüne",
+      "incumbent": true
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "name": "Nik Gugger",
+      "party": "EVP",
+      "incumbent": false
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "name": "Thomas Heiniger",
+      "party": "FDP",
+      "incumbent": true
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "name": "Markus Kägi",
+      "party": "SVP",
+      "incumbent": true
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "name": "Marcel Lenggenhager",
+      "party": "BDP",
+      "incumbent": false
+    },
+    {
+      "id": "daniel-schafroth",
+      "type": "candidate",
+      "name": "Daniel Schafroth",
+      "party": "parteilos",
+      "incumbent": false
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "name": "Silvia Steiner",
+      "party": "CVP",
+      "incumbent": false
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "name": "Ernst Stocker",
+      "party": "SVP",
+      "incumbent": true
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "name": "Carmen Walker Späh",
+      "party": "FDP",
+      "incumbent": false
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "name": " Vereinzelte",
+      "party": "-",
+      "incumbent": false
+    }
+  ]
+}

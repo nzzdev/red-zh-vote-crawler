@@ -1,0 +1,3279 @@
+{
+  "source": {
+    "time": "2015-04-12T14:47:00.000Z",
+    "area": [
+      183,
+      183
+    ],
+    "complete": true,
+    "electionId": "rr2015",
+    "urls": [
+      "http://www.wahlen.zh.ch/wahlen/rr2015/viewer.php?table=kandkanton",
+      "http://www.wahlen.zh.ch/wahlen/rr2015/viewer.php?table=kandgemeinden"
+    ],
+    "aggregated": "2015-04-12T14:48:20.374Z"
+  },
+  "meta": [
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "name": "Thomas Heiniger",
+      "party": "FDP",
+      "incumbent": true
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "name": "Mario Fehr",
+      "party": "SP",
+      "incumbent": true
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "name": "Ernst Stocker",
+      "party": "SVP",
+      "incumbent": true
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "name": "Markus Kägi",
+      "party": "SVP",
+      "incumbent": true
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "name": "Silvia Steiner",
+      "party": "CVP",
+      "incumbent": false
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "name": "Carmen Walker Späh",
+      "party": "FDP",
+      "incumbent": false
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "name": "Jacqueline Fehr",
+      "party": "SP",
+      "incumbent": false
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "name": "Martin Graf",
+      "party": "Grüne",
+      "incumbent": true
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "name": "Markus Bischoff",
+      "party": "AL",
+      "incumbent": false
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "name": "Niklaus-Samuel (Nik) Gugger",
+      "party": "EVP",
+      "incumbent": false
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "name": "Marcel Lenggenhager",
+      "party": "BDP",
+      "incumbent": false
+    },
+    {
+      "id": "dani-schafroth",
+      "type": "candidate",
+      "name": "Dani Schafroth",
+      "party": "parteilos",
+      "incumbent": false
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "name": " Vereinzelte",
+      "party": "-",
+      "incumbent": false
+    }
+  ],
+  "results": [
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 150557,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 146307,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 145205,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 136563,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 118477,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 116058,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 115618,
+      "elected": true,
+      "hasMajority": true
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 109625,
+      "elected": false,
+      "hasMajority": true
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 67103,
+      "elected": false,
+      "hasMajority": false
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 42623,
+      "elected": false,
+      "hasMajority": false
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 42443,
+      "elected": false,
+      "hasMajority": false
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "majority": 90888,
+      "votes": 81849,
+      "elected": false,
+      "hasMajority": false
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 2128
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 4280
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 5436
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 4185
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 1467
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 5956
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 5668
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 1409
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 4788
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 5952
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 4695
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "votes": 3031
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 1116
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 2663
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 3414
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 2708
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 1406
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 4169
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 4685
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 1285
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 3186
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 4869
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 3103
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "votes": 2216
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 3784
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 8179
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 11126
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 7734
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 3941
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 12879
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 12861
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 3930
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 10184
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 13507
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 9932
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 7749
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 1937
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 4620
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 6291
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 4444
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 2003
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 8045
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 8777
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 1818
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 6417
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 8904
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 6152
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "votes": 4422
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 1990
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 4266
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 5765
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3712
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 1326
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7224
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7075
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 1669
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 5954
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7326
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 5753
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 4079
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3365
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 6128
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 8158
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 6085
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3271
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 10315
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 10331
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3092
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 8424
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 11022
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7968
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 6005
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 4280
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 8929
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 12717
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 8306
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 3402
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 14804
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 13047
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 3579
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 11595
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 15082
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 11091
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "votes": 6094
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 4115
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7892
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 11374
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7835
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3083
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 15640
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 13738
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3763
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 11850
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 14588
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 12611
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 6666
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 1971
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 4689
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 6086
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 5247
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 2403
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7065
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 6877
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 2011
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 5703
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 7177
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 5376
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "votes": 3770
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 4908
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 9086
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 12090
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 8503
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 3175
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 13039
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 11844
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 4633
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 10312
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 12622
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 9888
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "votes": 8866
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 1809
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 4431
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 5706
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 4241
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 2979
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 6953
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 7410
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 2278
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 5487
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 7789
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 5282
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "votes": 3115
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 7042
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 12298
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 13620
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 10801
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 5706
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 10078
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 8876
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 3847
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 8108
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 9538
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 7421
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "votes": 8633
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 2680
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 3652
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 4516
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 3503
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 742
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 3974
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 2863
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 885
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 2917
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 3028
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 3048
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1589
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 7011
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 9130
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 10389
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 8470
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 1869
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 7214
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5532
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 2006
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5684
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5858
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5431
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 4270
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 3920
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 4444
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 4606
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 4133
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 690
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 2276
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1227
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 818
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1580
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1350
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1798
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1803
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 6766
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 8878
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 10218
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 8307
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 1946
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 7523
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5236
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 1963
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5656
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5505
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 6061
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 3379
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 4055
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 5795
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 7241
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 5597
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1393
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 7194
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 4978
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 1567
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 5345
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 5207
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 5847
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "votes": 2408
+    },
+    {
+      "id": "markus-bischoff",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 4226
+    },
+    {
+      "id": "jacqueline-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 6258
+    },
+    {
+      "id": "mario-fehr",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 7554
+    },
+    {
+      "id": "martin-graf",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5814
+    },
+    {
+      "id": "nik-gugger",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 1821
+    },
+    {
+      "id": "thomas-heiniger",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 6209
+    },
+    {
+      "id": "markus-kaegi",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5538
+    },
+    {
+      "id": "marcel-lenggenhager",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 1890
+    },
+    {
+      "id": "silvia-steiner",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5287
+    },
+    {
+      "id": "ernst-stocker",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 5881
+    },
+    {
+      "id": "carmen-walker-spaeh",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 4601
+    },
+    {
+      "id": "vereinzelte",
+      "type": "candidate",
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "votes": 3754
+    }
+  ]
+}

@@ -1,0 +1,4651 @@
+{
+  "source": {
+    "time": "2015-04-12T15:02:00.000Z",
+    "area": [
+      183,
+      183
+    ],
+    "complete": false,
+    "electionId": "kr2015",
+    "urls": [
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_kanton",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_vergleich_kanton",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_wk&wk=a",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_vergleich_wk&wk=a",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=sitzzuteilung_vergleich"
+    ],
+    "year": 2015,
+    "previousYear": 2011,
+    "aggregated": "2015-04-12T15:09:54.121Z"
+  },
+  "results": [
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 999029,
+      "voters": 86036,
+      "votersPercent": 30.02,
+      "seats": 54,
+      "previousVotersPercent": 29.63,
+      "previousSeats": 54
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 626744,
+      "voters": 56375,
+      "votersPercent": 19.67,
+      "seats": 36,
+      "previousVotersPercent": 19.32,
+      "previousSeats": 35
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 564103,
+      "voters": 49655,
+      "votersPercent": 17.33,
+      "seats": 31,
+      "previousVotersPercent": 12.93,
+      "previousSeats": 23
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 221088,
+      "voters": 20687,
+      "votersPercent": 7.22,
+      "seats": 13,
+      "previousVotersPercent": 10.57,
+      "previousSeats": 19
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 246967,
+      "voters": 21887,
+      "votersPercent": 7.64,
+      "seats": 14,
+      "previousVotersPercent": 10.27,
+      "previousSeats": 19
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 167009,
+      "voters": 13981,
+      "votersPercent": 4.88,
+      "seats": 9,
+      "previousVotersPercent": 4.86,
+      "previousSeats": 9
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 137818,
+      "voters": 12242,
+      "votersPercent": 4.27,
+      "seats": 8,
+      "previousVotersPercent": 3.78,
+      "previousSeats": 7
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 92014,
+      "voters": 7497,
+      "votersPercent": 2.62,
+      "seats": 5,
+      "previousVotersPercent": 3.47,
+      "previousSeats": 6
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 90018,
+      "voters": 7629,
+      "votersPercent": 2.66,
+      "seats": 5,
+      "previousVotersPercent": 2.57,
+      "previousSeats": 5
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 84464,
+      "voters": 8533,
+      "votersPercent": 2.98,
+      "seats": 5,
+      "previousVotersPercent": 1.63,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": 359,
+      "voters": 60,
+      "votersPercent": 0.02,
+      "seats": 0,
+      "previousVotersPercent": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": 2011,
+      "voters": 126,
+      "votersPercent": 0.04,
+      "seats": 0,
+      "previousVotersPercent": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 21454,
+      "voters": 1860,
+      "votersPercent": 0.65,
+      "seats": 0,
+      "previousVotersPercent": 0.56,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 5254,
+      "voters": 1314,
+      "votesPercent": 17.64,
+      "previousVotesPercent": 18.25,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 7936,
+      "voters": 1984,
+      "votesPercent": 26.65,
+      "previousVotesPercent": 28.6,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 6627,
+      "voters": 1657,
+      "votesPercent": 22.25,
+      "previousVotesPercent": 18.18,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 3558,
+      "voters": 890,
+      "votesPercent": 11.95,
+      "previousVotesPercent": 14.27,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 2594,
+      "voters": 649,
+      "votesPercent": 8.71,
+      "previousVotesPercent": 10.93,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 1398,
+      "voters": 350,
+      "votesPercent": 4.69,
+      "previousVotesPercent": 4.62,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 498,
+      "voters": 125,
+      "votesPercent": 1.67,
+      "previousVotesPercent": 1.42,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 247,
+      "voters": 62,
+      "votesPercent": 0.83,
+      "previousVotesPercent": 0.9,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 1672,
+      "voters": 418,
+      "votesPercent": 5.61,
+      "previousVotesPercent": 2.33,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 1,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 40938,
+      "voters": 3412,
+      "votesPercent": 20.44,
+      "previousVotesPercent": 20.58,
+      "seats": 2,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 59704,
+      "voters": 4975,
+      "votesPercent": 29.81,
+      "previousVotesPercent": 29.92,
+      "seats": 4,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 24457,
+      "voters": 2038,
+      "votesPercent": 12.21,
+      "previousVotesPercent": 7.75,
+      "seats": 2,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 21153,
+      "voters": 1763,
+      "votesPercent": 10.56,
+      "previousVotesPercent": 14.3,
+      "seats": 1,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 15292,
+      "voters": 1274,
+      "votesPercent": 7.63,
+      "previousVotesPercent": 10.2,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 10345,
+      "voters": 862,
+      "votesPercent": 5.16,
+      "previousVotesPercent": 5.12,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 5471,
+      "voters": 456,
+      "votesPercent": 2.73,
+      "previousVotesPercent": 2.59,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 1811,
+      "voters": 151,
+      "votesPercent": 0.9,
+      "previousVotesPercent": 1.7,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 1260,
+      "voters": 105,
+      "votesPercent": 0.63,
+      "previousVotesPercent": 0.73,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 16831,
+      "voters": 1403,
+      "votesPercent": 8.4,
+      "previousVotesPercent": 4.76,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 2,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 3042,
+      "voters": 254,
+      "votesPercent": 1.52,
+      "previousVotesPercent": 0.89,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 3083,
+      "voters": 617,
+      "votesPercent": 9.26,
+      "previousVotesPercent": 10.38,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 10421,
+      "voters": 2084,
+      "votesPercent": 31.3,
+      "previousVotesPercent": 34.44,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 3057,
+      "voters": 611,
+      "votesPercent": 9.18,
+      "previousVotesPercent": 5.49,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 5124,
+      "voters": 1025,
+      "votesPercent": 15.39,
+      "previousVotesPercent": 18.63,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 3306,
+      "voters": 661,
+      "votesPercent": 9.93,
+      "previousVotesPercent": 11.28,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 728,
+      "voters": 146,
+      "votesPercent": 2.19,
+      "previousVotesPercent": 3.35,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 324,
+      "voters": 65,
+      "votesPercent": 0.97,
+      "previousVotesPercent": 1.17,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 254,
+      "voters": 51,
+      "votesPercent": 0.76,
+      "previousVotesPercent": 0,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 185,
+      "voters": 37,
+      "votesPercent": 0.56,
+      "previousVotesPercent": 0.33,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 5917,
+      "voters": 1183,
+      "votesPercent": 17.77,
+      "previousVotesPercent": 11.85,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 3,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 891,
+      "voters": 178,
+      "votesPercent": 2.68,
+      "previousVotesPercent": 2.38,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 24108,
+      "voters": 2679,
+      "votesPercent": 16.72,
+      "previousVotesPercent": 16.42,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 43212,
+      "voters": 4801,
+      "votesPercent": 29.98,
+      "previousVotesPercent": 30.23,
+      "seats": 3,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 23290,
+      "voters": 2588,
+      "votesPercent": 16.16,
+      "previousVotesPercent": 11.94,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 14986,
+      "voters": 1665,
+      "votesPercent": 10.4,
+      "previousVotesPercent": 15.05,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 12614,
+      "voters": 1402,
+      "votesPercent": 8.75,
+      "previousVotesPercent": 11.99,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 5605,
+      "voters": 623,
+      "votesPercent": 3.89,
+      "previousVotesPercent": 3.93,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 3157,
+      "voters": 351,
+      "votesPercent": 2.19,
+      "previousVotesPercent": 2.22,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 1884,
+      "voters": 209,
+      "votesPercent": 1.31,
+      "previousVotesPercent": 1.64,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 868,
+      "voters": 96,
+      "votesPercent": 0.6,
+      "previousVotesPercent": 0.69,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 13162,
+      "voters": 1462,
+      "votesPercent": 9.13,
+      "previousVotesPercent": 4.24,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 4,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 1267,
+      "voters": 141,
+      "votesPercent": 0.88,
+      "previousVotesPercent": 1.07,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 12107,
+      "voters": 2018,
+      "votesPercent": 16.29,
+      "previousVotesPercent": 16.71,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 18251,
+      "voters": 3042,
+      "votesPercent": 24.56,
+      "previousVotesPercent": 23.72,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 20260,
+      "voters": 3377,
+      "votesPercent": 27.27,
+      "previousVotesPercent": 19.15,
+      "seats": 2,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 7934,
+      "voters": 1322,
+      "votesPercent": 10.68,
+      "previousVotesPercent": 16.2,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 6166,
+      "voters": 1028,
+      "votesPercent": 8.3,
+      "previousVotesPercent": 12.34,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 3421,
+      "voters": 570,
+      "votesPercent": 4.6,
+      "previousVotesPercent": 4.53,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 1681,
+      "voters": 280,
+      "votesPercent": 2.26,
+      "previousVotesPercent": 2.04,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 579,
+      "voters": 97,
+      "votesPercent": 0.78,
+      "previousVotesPercent": 2.03,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 334,
+      "voters": 56,
+      "votesPercent": 0.45,
+      "previousVotesPercent": 0.49,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 3571,
+      "voters": 595,
+      "votesPercent": 4.81,
+      "previousVotesPercent": 2.43,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 5,
+        "type": "constituency",
+        "area": [
+          1,
+          1
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 42103,
+      "voters": 3509,
+      "votesPercent": 26.38,
+      "previousVotesPercent": 26.49,
+      "seats": 3,
+      "previousSeats": 4
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 43393,
+      "voters": 3616,
+      "votesPercent": 27.19,
+      "previousVotesPercent": 26.96,
+      "seats": 3,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 18551,
+      "voters": 1546,
+      "votesPercent": 11.62,
+      "previousVotesPercent": 8.19,
+      "seats": 2,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 12862,
+      "voters": 1072,
+      "votesPercent": 8.06,
+      "previousVotesPercent": 11,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 12147,
+      "voters": 1012,
+      "votesPercent": 7.61,
+      "previousVotesPercent": 9.26,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 10313,
+      "voters": 859,
+      "votesPercent": 6.46,
+      "previousVotesPercent": 6.1,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 5687,
+      "voters": 474,
+      "votesPercent": 3.56,
+      "previousVotesPercent": 3.39,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 3382,
+      "voters": 282,
+      "votesPercent": 2.12,
+      "previousVotesPercent": 2.17,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 2430,
+      "voters": 203,
+      "votesPercent": 1.52,
+      "previousVotesPercent": 1.59,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 6889,
+      "voters": 574,
+      "votesPercent": 4.32,
+      "previousVotesPercent": 2.08,
+      "seats": 1,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 6,
+        "type": "constituency",
+        "area": [
+          2,
+          2
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 1843,
+      "voters": 154,
+      "votesPercent": 1.15,
+      "previousVotesPercent": 1.35,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 52052,
+      "voters": 4732,
+      "votesPercent": 36.34,
+      "previousVotesPercent": 35.95,
+      "seats": 4,
+      "previousSeats": 4
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 25020,
+      "voters": 2275,
+      "votesPercent": 17.47,
+      "previousVotesPercent": 17.85,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 28696,
+      "voters": 2609,
+      "votesPercent": 20.03,
+      "previousVotesPercent": 16.6,
+      "seats": 3,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 5283,
+      "voters": 480,
+      "votesPercent": 3.69,
+      "previousVotesPercent": 7.56,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 8038,
+      "voters": 731,
+      "votesPercent": 5.61,
+      "previousVotesPercent": 5.71,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 11961,
+      "voters": 1087,
+      "votesPercent": 8.35,
+      "previousVotesPercent": 7.77,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 5487,
+      "voters": 499,
+      "votesPercent": 3.83,
+      "previousVotesPercent": 3.79,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 2288,
+      "voters": 208,
+      "votesPercent": 1.6,
+      "previousVotesPercent": 1.97,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 1620,
+      "voters": 147,
+      "votesPercent": 1.13,
+      "previousVotesPercent": 1.15,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 1792,
+      "voters": 163,
+      "votesPercent": 1.25,
+      "previousVotesPercent": 1.19,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 7,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 1016,
+      "voters": 92,
+      "votesPercent": 0.71,
+      "previousVotesPercent": 0,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 21870,
+      "voters": 3645,
+      "votesPercent": 32.27,
+      "previousVotesPercent": 30.83,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 12297,
+      "voters": 2050,
+      "votesPercent": 18.14,
+      "previousVotesPercent": 15.47,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 12280,
+      "voters": 2047,
+      "votesPercent": 18.12,
+      "previousVotesPercent": 13.08,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 4737,
+      "voters": 790,
+      "votesPercent": 6.99,
+      "previousVotesPercent": 10.54,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 5557,
+      "voters": 926,
+      "votesPercent": 8.2,
+      "previousVotesPercent": 10.96,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 2599,
+      "voters": 433,
+      "votesPercent": 3.83,
+      "previousVotesPercent": 3.23,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 5882,
+      "voters": 980,
+      "votesPercent": 8.68,
+      "previousVotesPercent": 7.56,
+      "seats": 1,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 1510,
+      "voters": 252,
+      "votesPercent": 2.23,
+      "previousVotesPercent": 2.68,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 691,
+      "voters": 115,
+      "votesPercent": 1.02,
+      "previousVotesPercent": 0.43,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": 359,
+      "voters": 60,
+      "votesPercent": 0.53,
+      "previousVotesPercent": 0,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 8,
+        "type": "constituency",
+        "area": [
+          14,
+          14
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 109374,
+      "voters": 7292,
+      "votesPercent": 29.51,
+      "previousVotesPercent": 28.99,
+      "seats": 4,
+      "previousSeats": 4
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 62568,
+      "voters": 4171,
+      "votesPercent": 16.88,
+      "previousVotesPercent": 17.5,
+      "seats": 3,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 80566,
+      "voters": 5371,
+      "votesPercent": 21.74,
+      "previousVotesPercent": 16.88,
+      "seats": 3,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 22022,
+      "voters": 1468,
+      "votesPercent": 5.94,
+      "previousVotesPercent": 8.74,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 27859,
+      "voters": 1857,
+      "votesPercent": 7.52,
+      "previousVotesPercent": 9.45,
+      "seats": 1,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 30240,
+      "voters": 2016,
+      "votesPercent": 8.16,
+      "previousVotesPercent": 7.6,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 15687,
+      "voters": 1046,
+      "votesPercent": 4.23,
+      "previousVotesPercent": 4.46,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 10657,
+      "voters": 710,
+      "votesPercent": 2.88,
+      "previousVotesPercent": 3.63,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 5684,
+      "voters": 379,
+      "votesPercent": 1.53,
+      "previousVotesPercent": 1.57,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 4659,
+      "voters": 311,
+      "votesPercent": 1.26,
+      "previousVotesPercent": 0.47,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 9,
+        "type": "constituency",
+        "area": [
+          12,
+          12
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 1349,
+      "voters": 90,
+      "votesPercent": 0.36,
+      "previousVotesPercent": 0.69,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 101578,
+      "voters": 7814,
+      "votesPercent": 31.22,
+      "previousVotesPercent": 31.35,
+      "seats": 4,
+      "previousSeats": 4
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 47955,
+      "voters": 3689,
+      "votesPercent": 14.74,
+      "previousVotesPercent": 13.3,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 93626,
+      "voters": 7202,
+      "votesPercent": 28.78,
+      "previousVotesPercent": 22.84,
+      "seats": 4,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 16325,
+      "voters": 1256,
+      "votesPercent": 5.02,
+      "previousVotesPercent": 8.04,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 25014,
+      "voters": 1924,
+      "votesPercent": 7.69,
+      "previousVotesPercent": 12.22,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 14596,
+      "voters": 1123,
+      "votesPercent": 4.49,
+      "previousVotesPercent": 4.39,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 7170,
+      "voters": 552,
+      "votesPercent": 2.2,
+      "previousVotesPercent": 2.4,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 6390,
+      "voters": 492,
+      "votesPercent": 1.96,
+      "previousVotesPercent": 2.61,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 8963,
+      "voters": 689,
+      "votesPercent": 2.75,
+      "previousVotesPercent": 2.43,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 3734,
+      "voters": 287,
+      "votesPercent": 1.15,
+      "previousVotesPercent": 0.42,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 10,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 83273,
+      "voters": 6939,
+      "votesPercent": 36.12,
+      "previousVotesPercent": 35.79,
+      "seats": 4,
+      "previousSeats": 4
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 30668,
+      "voters": 2556,
+      "votesPercent": 13.3,
+      "previousVotesPercent": 13.57,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 32729,
+      "voters": 2727,
+      "votesPercent": 14.2,
+      "previousVotesPercent": 9.74,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 14655,
+      "voters": 1221,
+      "votesPercent": 6.36,
+      "previousVotesPercent": 9.01,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 15830,
+      "voters": 1319,
+      "votesPercent": 6.87,
+      "previousVotesPercent": 9.27,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 13017,
+      "voters": 1085,
+      "votesPercent": 5.65,
+      "previousVotesPercent": 5.7,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 13598,
+      "voters": 1133,
+      "votesPercent": 5.9,
+      "previousVotesPercent": 5.5,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 8358,
+      "voters": 697,
+      "votesPercent": 3.63,
+      "previousVotesPercent": 4.23,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 15419,
+      "voters": 1285,
+      "votesPercent": 6.69,
+      "previousVotesPercent": 6.6,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 3009,
+      "voters": 251,
+      "votesPercent": 1.31,
+      "previousVotesPercent": 0.6,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 11,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 127780,
+      "voters": 7986,
+      "votesPercent": 33.54,
+      "previousVotesPercent": 31.81,
+      "seats": 5,
+      "previousSeats": 5
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 67381,
+      "voters": 4211,
+      "votesPercent": 17.69,
+      "previousVotesPercent": 17.47,
+      "seats": 3,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 59884,
+      "voters": 3743,
+      "votesPercent": 15.72,
+      "previousVotesPercent": 10.83,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 21491,
+      "voters": 1343,
+      "votesPercent": 5.64,
+      "previousVotesPercent": 8.17,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 34535,
+      "voters": 2158,
+      "votesPercent": 9.06,
+      "previousVotesPercent": 13.13,
+      "seats": 1,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 17936,
+      "voters": 1121,
+      "votesPercent": 4.71,
+      "previousVotesPercent": 4.26,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 11775,
+      "voters": 736,
+      "votesPercent": 3.09,
+      "previousVotesPercent": 2.56,
+      "seats": 1,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 21761,
+      "voters": 1360,
+      "votesPercent": 5.71,
+      "previousVotesPercent": 6.82,
+      "seats": 1,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 9767,
+      "voters": 610,
+      "votesPercent": 2.56,
+      "previousVotesPercent": 2.52,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 4414,
+      "voters": 276,
+      "votesPercent": 1.16,
+      "previousVotesPercent": 0.77,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": 2011,
+      "voters": 126,
+      "votesPercent": 0.53,
+      "previousVotesPercent": 0,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 12,
+        "type": "constituency",
+        "area": [
+          10,
+          10
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 2257,
+      "voters": 141,
+      "votesPercent": 0.59,
+      "previousVotesPercent": 0.57,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 32872,
+      "voters": 4696,
+      "votesPercent": 36.16,
+      "previousVotesPercent": 35.99,
+      "seats": 3,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 14694,
+      "voters": 2099,
+      "votesPercent": 16.16,
+      "previousVotesPercent": 14.66,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 13295,
+      "voters": 1899,
+      "votesPercent": 14.62,
+      "previousVotesPercent": 10.02,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 5325,
+      "voters": 761,
+      "votesPercent": 5.86,
+      "previousVotesPercent": 10.77,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 6425,
+      "voters": 918,
+      "votesPercent": 7.07,
+      "previousVotesPercent": 9.27,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 2662,
+      "voters": 380,
+      "votesPercent": 2.93,
+      "previousVotesPercent": 3.07,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 7570,
+      "voters": 1081,
+      "votesPercent": 8.33,
+      "previousVotesPercent": 6.33,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 2768,
+      "voters": 395,
+      "votesPercent": 3.04,
+      "previousVotesPercent": 4.93,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 4142,
+      "voters": 592,
+      "votesPercent": 4.56,
+      "previousVotesPercent": 4.58,
+      "seats": 1,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 759,
+      "voters": 108,
+      "votesPercent": 0.83,
+      "previousVotesPercent": 0.38,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 13,
+        "type": "constituency",
+        "area": [
+          11,
+          11
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 404,
+      "voters": 58,
+      "votesPercent": 0.44,
+      "previousVotesPercent": 0,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 68076,
+      "voters": 5237,
+      "votesPercent": 21.94,
+      "previousVotesPercent": 21.62,
+      "seats": 3,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 75188,
+      "voters": 5784,
+      "votesPercent": 24.23,
+      "previousVotesPercent": 21.67,
+      "seats": 3,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 39016,
+      "voters": 3001,
+      "votesPercent": 12.57,
+      "previousVotesPercent": 10.83,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 28613,
+      "voters": 2201,
+      "votesPercent": 9.22,
+      "previousVotesPercent": 14.58,
+      "seats": 1,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 25746,
+      "voters": 1980,
+      "votesPercent": 8.3,
+      "previousVotesPercent": 10.24,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 16907,
+      "voters": 1301,
+      "votesPercent": 5.45,
+      "previousVotesPercent": 6,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 23650,
+      "voters": 1819,
+      "votesPercent": 7.62,
+      "previousVotesPercent": 5.32,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 8784,
+      "voters": 676,
+      "votesPercent": 2.83,
+      "previousVotesPercent": 2.62,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 7089,
+      "voters": 545,
+      "votesPercent": 2.28,
+      "previousVotesPercent": 2.3,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 11802,
+      "voters": 908,
+      "votesPercent": 3.8,
+      "previousVotesPercent": 2.65,
+      "seats": 1,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 14,
+        "type": "constituency",
+        "area": [
+          7,
+          7
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 5413,
+      "voters": 416,
+      "votesPercent": 1.74,
+      "previousVotesPercent": 1.46,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 37310,
+      "voters": 5330,
+      "votesPercent": 40.13,
+      "previousVotesPercent": 38.82,
+      "seats": 3,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 11911,
+      "voters": 1702,
+      "votesPercent": 12.81,
+      "previousVotesPercent": 13.41,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 12989,
+      "voters": 1856,
+      "votesPercent": 13.97,
+      "previousVotesPercent": 10.83,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 4711,
+      "voters": 673,
+      "votesPercent": 5.07,
+      "previousVotesPercent": 8.06,
+      "seats": 0,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 8133,
+      "voters": 1162,
+      "votesPercent": 8.75,
+      "previousVotesPercent": 9.93,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 2914,
+      "voters": 416,
+      "votesPercent": 3.13,
+      "previousVotesPercent": 3.8,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 6458,
+      "voters": 923,
+      "votesPercent": 6.95,
+      "previousVotesPercent": 6.41,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 4181,
+      "voters": 597,
+      "votesPercent": 4.5,
+      "previousVotesPercent": 4.33,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 2847,
+      "voters": 407,
+      "votesPercent": 3.06,
+      "previousVotesPercent": 3.26,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 777,
+      "voters": 111,
+      "votesPercent": 0.84,
+      "previousVotesPercent": 0.33,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 15,
+        "type": "constituency",
+        "area": [
+          19,
+          19
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 750,
+      "voters": 107,
+      "votesPercent": 0.81,
+      "previousVotesPercent": 0.83,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 13225,
+      "voters": 3306,
+      "votesPercent": 39.34,
+      "previousVotesPercent": 40.78,
+      "seats": 2,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 4875,
+      "voters": 1219,
+      "votesPercent": 14.5,
+      "previousVotesPercent": 13.81,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 5740,
+      "voters": 1435,
+      "votesPercent": 17.07,
+      "previousVotesPercent": 12.16,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 2972,
+      "voters": 743,
+      "votesPercent": 8.84,
+      "previousVotesPercent": 10.44,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 1739,
+      "voters": 435,
+      "votesPercent": 5.17,
+      "previousVotesPercent": 7.23,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 597,
+      "voters": 149,
+      "votesPercent": 1.78,
+      "previousVotesPercent": 2.13,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 1007,
+      "voters": 252,
+      "votesPercent": 3,
+      "previousVotesPercent": 2.73,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 1939,
+      "voters": 485,
+      "votesPercent": 5.77,
+      "previousVotesPercent": 6.91,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 1224,
+      "voters": 306,
+      "votesPercent": 3.64,
+      "previousVotesPercent": 3.35,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 302,
+      "voters": 76,
+      "votesPercent": 0.9,
+      "previousVotesPercent": 0.45,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 16,
+        "type": "constituency",
+        "area": [
+          24,
+          24
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 151323,
+      "voters": 8901,
+      "votesPercent": 37.49,
+      "previousVotesPercent": 36.32,
+      "seats": 6,
+      "previousSeats": 6
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 67966,
+      "voters": 3998,
+      "votesPercent": 16.84,
+      "previousVotesPercent": 16.69,
+      "seats": 2,
+      "previousSeats": 3
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 66897,
+      "voters": 3935,
+      "votesPercent": 16.57,
+      "previousVotesPercent": 11.94,
+      "seats": 3,
+      "previousSeats": 2
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 20355,
+      "voters": 1197,
+      "votesPercent": 5.04,
+      "previousVotesPercent": 7.5,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 25543,
+      "voters": 1503,
+      "votesPercent": 6.33,
+      "previousVotesPercent": 9.21,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 16196,
+      "voters": 953,
+      "votesPercent": 4.01,
+      "previousVotesPercent": 4.02,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 18532,
+      "voters": 1090,
+      "votesPercent": 4.59,
+      "previousVotesPercent": 3.99,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 14239,
+      "voters": 838,
+      "votesPercent": 3.53,
+      "previousVotesPercent": 5.04,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 16968,
+      "voters": 998,
+      "votesPercent": 4.2,
+      "previousVotesPercent": 3.71,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 3608,
+      "voters": 212,
+      "votesPercent": 0.89,
+      "previousVotesPercent": 0.7,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 17,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 2004,
+      "voters": 118,
+      "votesPercent": 0.5,
+      "previousVotesPercent": 0.88,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "SVP",
+      "type": "list",
+      "votes": 72703,
+      "voters": 6609,
+      "votesPercent": 44.99,
+      "previousVotesPercent": 43.4,
+      "seats": 5,
+      "previousSeats": 5
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "SP",
+      "type": "list",
+      "votes": 23304,
+      "voters": 2119,
+      "votesPercent": 14.42,
+      "previousVotesPercent": 14.89,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "FDP",
+      "type": "list",
+      "votes": 22143,
+      "voters": 2013,
+      "votesPercent": 13.7,
+      "previousVotesPercent": 9.94,
+      "seats": 2,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "Grüne",
+      "type": "list",
+      "votes": 8982,
+      "voters": 817,
+      "votesPercent": 5.56,
+      "previousVotesPercent": 7.97,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "glp",
+      "type": "list",
+      "votes": 10429,
+      "voters": 948,
+      "votesPercent": 6.45,
+      "previousVotesPercent": 9.7,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "CVP",
+      "type": "list",
+      "votes": 5574,
+      "voters": 507,
+      "votesPercent": 3.45,
+      "previousVotesPercent": 4.03,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "EVP",
+      "type": "list",
+      "votes": 4184,
+      "voters": 380,
+      "votesPercent": 2.59,
+      "previousVotesPercent": 2.2,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "BDP",
+      "type": "list",
+      "votes": 2739,
+      "voters": 249,
+      "votesPercent": 1.69,
+      "previousVotesPercent": 2.58,
+      "seats": 0,
+      "previousSeats": 0
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "EDU",
+      "type": "list",
+      "votes": 9461,
+      "voters": 860,
+      "votesPercent": 5.85,
+      "previousVotesPercent": 4.92,
+      "seats": 1,
+      "previousSeats": 1
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "AL",
+      "type": "list",
+      "votes": 875,
+      "voters": 80,
+      "votesPercent": 0.54,
+      "previousVotesPercent": 0.35,
+      "seats": 0,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "IP ZH",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "JUSO",
+      "type": "list",
+      "votes": null,
+      "voters": null,
+      "votesPercent": null,
+      "previousVotesPercent": null,
+      "seats": null,
+      "previousSeats": null
+    },
+    {
+      "geography": {
+        "id": 18,
+        "type": "constituency",
+        "area": [
+          22,
+          22
+        ],
+        "complete": true
+      },
+      "id": "Piraten",
+      "type": "list",
+      "votes": 1218,
+      "voters": 111,
+      "votesPercent": 0.75,
+      "previousVotesPercent": 0,
+      "seats": 0,
+      "previousSeats": 0
+    }
+  ]
+}

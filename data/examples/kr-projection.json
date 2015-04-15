@@ -1,0 +1,157 @@
+{
+  "source": {
+    "time": "2015-03-31T09:17:00.000Z",
+    "area": [
+      174,
+      183
+    ],
+    "complete": false,
+    "electionId": "kr2015",
+    "urls": [
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=hochrechnung",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_kanton",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_vergleich_kanton",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_wk&wk=a",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=listen_vergleich_wk&wk=a",
+      "http://www.wahlen.zh.ch/wahlen/kr2015/viewer.php?menu=sitzzuteilung_vergleich"
+    ],
+    "year": 2015,
+    "previousYear": 2011,
+    "aggregated": "2015-04-10T14:02:03.637Z",
+    "fetched": "2015-04-12T14:00:42.173Z"
+  },
+  "results": [
+    {
+      "id": "SVP",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 30,
+      "seats": 55,
+      "previousVotersPercent": 29.63,
+      "previousSeats": 54
+    },
+    {
+      "id": "SP",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 20,
+      "seats": 35,
+      "previousVotersPercent": 19.32,
+      "previousSeats": 35
+    },
+    {
+      "id": "FDP",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 17,
+      "seats": 31,
+      "previousVotersPercent": 12.93,
+      "previousSeats": 23
+    },
+    {
+      "id": "Grüne",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 7,
+      "seats": 13,
+      "previousVotersPercent": 10.57,
+      "previousSeats": 19
+    },
+    {
+      "id": "glp",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 8,
+      "seats": 14,
+      "previousVotersPercent": 10.27,
+      "previousSeats": 19
+    },
+    {
+      "id": "CVP",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 5,
+      "seats": 9,
+      "previousVotersPercent": 4.86,
+      "previousSeats": 9
+    },
+    {
+      "id": "EVP",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 4,
+      "seats": 8,
+      "previousVotersPercent": 3.78,
+      "previousSeats": 7
+    },
+    {
+      "id": "BDP",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 3,
+      "seats": 5,
+      "previousVotersPercent": 3.47,
+      "previousSeats": 6
+    },
+    {
+      "id": "EDU",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 3,
+      "seats": 5,
+      "previousVotersPercent": 2.57,
+      "previousSeats": 5
+    },
+    {
+      "id": "AL",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 3,
+      "seats": 5,
+      "previousVotersPercent": 1.63,
+      "previousSeats": 3
+    },
+    {
+      "id": "Übrige",
+      "type": "list",
+      "geography": {
+        "id": "zh",
+        "type": "canton"
+      },
+      "votersPercent": 1,
+      "seats": 0,
+      "previousVotersPercent": 1.3,
+      "previousSeats": 0
+    }
+  ]
+}
